@@ -1,6 +1,6 @@
 <?php
 /*
- Plugin Name: Content Portfolio
+ Plugin Name: External Content Portfolio
  Plugin URI: https://generalchicken.net
  Description: 
  Version: 0.1
