@@ -25,9 +25,9 @@ class UrlToTitleConverter{
         
         // Notice how the keys are all lowercase now, and
         // how . was replaced by _ in the key.
-        echo $tags['author'];       // name
-        echo $tags['keywords'];     // php documentation
-        die();
+        //echo $tags['author'];       // name
+        //echo $tags['keywords'];     // php documentation
+        //die();
     }
     
     public function __set($property, $value){
