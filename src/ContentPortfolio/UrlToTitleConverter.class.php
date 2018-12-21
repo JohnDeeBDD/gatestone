@@ -2,8 +2,6 @@
 
 namespace ContentPortfolio;
 
-
-
 class UrlToTitleConverter{
     
     private $url = "No URL";
@@ -21,17 +19,12 @@ class UrlToTitleConverter{
             $title = substr($title, 0, strpos($title, '</title>'));
             $this->parseTitleIntoTitleAndSitename($title);
         }
-        $tags = get_meta_tags($response);
         
-        // Notice how the keys are all lowercase now, and
-        // how . was replaced by _ in the key.
-        //echo $tags['author'];       // name
-        //echo $tags['keywords'];     // php documentation
-        //die();
     }
     
     public function __set($property, $value){
         if($property == "url"){
+            $this->url;
             $this->lookForTitleInRemoteGetFetch($value);
         }        
     }
@@ -45,7 +38,6 @@ class UrlToTitleConverter{
             $this->title = $haystack;
             $this->siteName = "Unknown site.";
         }else{
-  
             $this->title = substr($haystack, 0, $pos);
             $this->siteName = substr($haystack, (-(strlen($haystack) - $pos - 9)));
         }
