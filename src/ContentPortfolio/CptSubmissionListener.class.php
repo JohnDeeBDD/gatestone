@@ -21,8 +21,8 @@ class CptSubmissionListener{
         $output = <<<output
 <script>
 jQuery(document).ready(function(){
-        window.open('/wp-admin/upload.php?page=lh-add-media-from-url.php','_blank');
-        window.open('$remoteUrl','_blank');
+        window.open('/wp-admin/upload.php?page=emu','_blank');
+        //window.open('$remoteUrl','_blank');
 });
 </script>
 output;
