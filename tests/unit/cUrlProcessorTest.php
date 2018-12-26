@@ -7,6 +7,8 @@ class UrlToTitleConverterTest extends \Codeception\TestCase\WPTestCase{
      * it should be instantiatable
      */
     public function it_should_be_instantiatable(){
-        $UrlToTitleConverter = new ContentPortfolio\UrlToTitleConverter();
+        $UrlToTitleConverter = new ContentPortfolio\cUrlProcessor();
+
     }
+    
 }   

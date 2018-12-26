@@ -2,7 +2,7 @@
 
 namespace ContentPortfolio;
 
-class UrlToTitleConverter{
+class cUrlProcessor{
     
     private $url = "No URL";
     public $title = "No xx title";

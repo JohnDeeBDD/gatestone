@@ -3,11 +3,7 @@
 namespace ContentPortfolio;
 
 class ContentPortfolioPlugin{
-    
-    public function addShortcodeContentPortfolioAdder(){
-        add_shortcode('content-portfolio-adder', array(new ShortcodeContentPortfolioAdder, "returnForm"));
-    }
-    
+       
     public function registerCptExternalContent(){
         include_once('CPTexternalContent.php');
     }
@@ -17,8 +13,6 @@ class ContentPortfolioPlugin{
     }
     
     public function listenForNewExternalContentCptSubmission(){
-        add_action('init', array(new ShortcodeContentPortfolioAdder, 'listenForFormSubmission'));
+        add_action('init', array(new CptSubmissionListener, 'listenForFormSubmission'));
     }
-    
-
 }
