@@ -36,11 +36,11 @@ output;
         //$cUrlProcessor->lookForTitleInRemoteGetFetch();
         $title = $cUrlProcessor->title;
         $siteName = $cUrlProcessor->siteName;
-        $content = "This is an SEO article written by Asia Mayfield from <a href = 'https://generalchicken.ner' target = '_blank'>generalchicken.net</a>&nbsp;. <br />Original content on <a href = '$Url' target = '_blank'>$siteName</a>.";
+        $content = "This is an SEO article written by Asia Mayfield from <a href = 'https://generalchicken.net' target = '_blank'>generalchicken.net</a>&nbsp;. <br />Original content on <a href = '$Url' target = '_blank'>$siteName</a>.";
         
         $args = array(
             'post_title'    => $title,
-            'post_status'   => 'publish',
+            'post_status'   => 'draft',
             'post_type'     => 'external-content',
             'post_content'  => $content,
         );
