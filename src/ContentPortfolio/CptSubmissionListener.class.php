@@ -9,8 +9,11 @@ class CptSubmissionListener{
             $this->processFormSubission($_POST['add-this-url']);
         }
         if (isset($_GET['external-content'])){
-            //$this->openNewTabs();
             add_action('admin_footer', array($this, "openNewTabs"));
+        }
+        if(isset($_GET['external-content-rescan'])){
+            $Rescanner = new Rescanner;
+            $Rescanner->rescanContent();
         }
     }
     
@@ -33,10 +36,10 @@ output;
     public function processFormSubission($url){
         $cUrlProcessor = new cUrlProcessor;
         $cUrlProcessor->url = $url;
-        //$cUrlProcessor->lookForTitleInRemoteGetFetch();
         $title = $cUrlProcessor->title;
         $siteName = $cUrlProcessor->siteName;
-        $content = "This is an SEO article written by Asia Mayfield from <a href = 'https://generalchicken.net' target = '_blank'>generalchicken.net</a>&nbsp;. <br />Original content on <a href = '$Url' target = '_blank'>$siteName</a>.";
+        $CptProcssor = new CptProcessor;
+        $content = $CptProcssor->baseContent;
         
         $args = array(
             'post_title'    => $title,
@@ -45,6 +48,7 @@ output;
             'post_content'  => $content,
         );
         $ID = wp_insert_post( $args );
+ 
         add_post_meta($ID, "remoteUrl", $url);
         add_post_meta($ID, "siteName", $siteName);
         $gotoUrl = get_site_url() . "/wp-admin/post.php?post=" . $ID . "&action=edit&classic-editor&external-content=publish";

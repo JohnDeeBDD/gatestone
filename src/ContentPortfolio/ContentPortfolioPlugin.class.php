@@ -3,6 +3,10 @@
 namespace ContentPortfolio;
 
 class ContentPortfolioPlugin{
+    
+    public function __construct(){
+
+    }
        
     public function registerCptExternalContent(){
         include_once('CPTexternalContent.php');

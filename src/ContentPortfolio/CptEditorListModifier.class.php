@@ -23,11 +23,12 @@ class CptEditorListModifier{
 <script>
 jQuery(document).ready(function(){
     //alert('jQuery on edit page');
-    jQuery( ".wp-heading-inline" ).after( '<form method = "post"><input type = "text" name = "add-this-url" placeholder = "enter remote content URL"/><input type = "submit" value = "Add New" /></form>' );
+    jQuery( ".wp-heading-inline" ).after( '<form method = "post"><input type = "text" name = "add-this-url" placeholder = "enter remote content URL"/><input type = "submit" value = "Add New" /> <a href = "/wp-admin/edit.php?post_type=external-content&external-content-rescan=TRUE">Re-scan Content</a></form>' );
     jQuery(".page-title-action").hide();
 });
 </script>
 output;
+
         echo $output;
     }
 

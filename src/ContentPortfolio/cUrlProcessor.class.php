@@ -6,7 +6,7 @@ class cUrlProcessor{
     
     private $url = "No URL";
     public $title = "No xx title";
-    public $siteName = "No site name";
+    public $siteName = "Unknown";
     
     public function lookForTitleInRemoteGetFetch($url){
         //die("lookForTitleInRemoteGetFetch being called");
@@ -38,7 +38,7 @@ class cUrlProcessor{
 
         if ($pos === false) {
             $this->title = $haystack;
-            $this->siteName = "Unknown site.";
+            $this->siteName = "Unknown";
         }else{
             $this->title = substr($haystack, 0, $pos);
             $this->siteName = substr($haystack, (-(strlen($haystack) - $pos - 9)));
