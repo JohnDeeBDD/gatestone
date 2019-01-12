@@ -1,6 +1,6 @@
 <?php
 
-namespace ContentPortfolio;;
+namespace ContentPortfolio;
 
 abstract class AbstractParser{}
 
