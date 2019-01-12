@@ -1,5 +1,7 @@
 <?php
 
-namespace ExternalContentPortfolio;
+namespace ContentPortfolio;;
 
-class Parser{}
+abstract class AbstractParser{}
+
+class Parser extends AbstractParser{}
