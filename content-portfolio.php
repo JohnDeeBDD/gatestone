@@ -6,7 +6,7 @@
  Version: 3.3
  Author: John Dee
  Author URI: https://generalchicken.net
- GitHub Plugin URI: https://github.com/JohnDeeBDD/external-content-portfolio/
+ GitHub Plugin URI: https://github.com/JohnDeeBDD/external-content-portfolio
  */
 
 namespace ContentPortfolio;
