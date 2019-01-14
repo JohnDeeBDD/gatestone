@@ -3,7 +3,7 @@
  Plugin Name: External Content Portfolio
  Plugin URI: https://generalchicken.net
  Description: 
- Version: 2.2
+ Version: 3.3
  Author: John Dee
  Author URI: https://generalchicken.net
  GitHub Plugin URI: https://github.com/JohnDeeBDD/external-content-portfolio/
