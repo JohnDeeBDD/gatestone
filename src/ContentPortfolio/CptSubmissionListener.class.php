@@ -6,7 +6,9 @@ class CptSubmissionListener{
     
     public function listenForFormSubmission(){
         if (isset($_POST['add-this-url'])){
-            $this->processFormSubission($_POST['add-this-url']);
+            $SeoArticleParser = new SeoArticleParser;
+            $SeoArticleParser->Url = $_POST['add-this-url'];
+            $SeoArticleParser->parseUrl();
         }
         if (isset($_GET['external-content'])){
             add_action('admin_footer', array($this, "openNewTabs"));
@@ -18,6 +20,8 @@ class CptSubmissionListener{
     }
     
     public function openNewTabs(){
+        //this function pops open some new tabs so that fetures images can
+        //be captures from the plugin LH External Content
         $ID = $_GET['post'];
         $remoteUrl = get_post_meta($ID,"remoteUrl", true );
         

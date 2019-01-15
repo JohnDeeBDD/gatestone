@@ -10,5 +10,4 @@ class UrlToTitleConverterTest extends \Codeception\TestCase\WPTestCase{
         $UrlToTitleConverter = new ContentPortfolio\cUrlProcessor();
 
     }
-    
 }   

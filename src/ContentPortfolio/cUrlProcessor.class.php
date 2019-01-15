@@ -11,7 +11,7 @@ class cUrlProcessor{
     public function lookForTitleInRemoteGetFetch($url){
         //die("lookForTitleInRemoteGetFetch being called");
         $response = wp_remote_get($url);
-        $title = "Title metatag not present.";
+        $title = "Title metatag not  xx present.";
         $this->title = $title;
         if ( is_array( $response ) ) {
             $body = $response['body'];

@@ -4,8 +4,6 @@ namespace ContentPortfolio;
 
 class CptProcessor{
     
-    public $baseContent = "This is an SEO article written by Asia Mayfield from <a href = 'https://generalchicken.net' target = '_blank'>generalchicken.net</a>.";
-    
     public function updateContentofCpt($ID){
         $content = $this->baseContent;
         $siteName = get_post_meta( $ID, 'siteName', true);
