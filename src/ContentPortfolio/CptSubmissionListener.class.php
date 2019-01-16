@@ -7,8 +7,9 @@ class CptSubmissionListener{
     public function listenForFormSubmission(){
         if (isset($_POST['add-this-url'])){
             $SeoArticleParser = new SeoArticleParser;
-            $SeoArticleParser->Url = $_POST['add-this-url'];
-            $SeoArticleParser->parseUrl();
+            $ID = $SeoArticleParser->createNewCpt($_POST['add-this-url']);
+            $SeoArticleParser->processCPT($ID);
+            $this->redirectToEditPage($ID);
         }
         if (isset($_GET['external-content'])){
             add_action('admin_footer', array($this, "openNewTabs"));
@@ -37,7 +38,7 @@ output;
         echo($output);
     }
     
-    public function processFormSubission($url){
+    public function xxprocessFormSubission($url){
         $cUrlProcessor = new cUrlProcessor;
         $cUrlProcessor->url = $url;
         $title = $cUrlProcessor->title;
@@ -55,7 +56,12 @@ output;
  
         add_post_meta($ID, "remoteUrl", $url);
         add_post_meta($ID, "siteName", $siteName);
+    }
+    
+    public function redirectToEditPage($ID){
+        
         $gotoUrl = get_site_url() . "/wp-admin/post.php?post=" . $ID . "&action=edit&classic-editor&external-content=publish";
+        die($gotoUrl);
         wp_redirect($gotoUrl);
         exit;
     }

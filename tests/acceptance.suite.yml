@@ -3,7 +3,7 @@ modules:
     enabled:
         - \Helper\Acceptance
         - WPDb
-        - WPBrowser
+        - WPWebDriver
     config:
         WPDb:
             dsn: 'mysql:host=localhost;dbname=wordpress'
@@ -12,10 +12,14 @@ modules:
             dump: tests/_data/dump.sql
             populate: false
             cleanup: false
-            url: 'http://localhost'
+            url: 'http://ec2-3-89-195-229.compute-1.amazonaws.com'
             tablePrefix: wp_
-        WPBrowser:
-            url: 'http://ec2-34-204-77-50.compute-1.amazonaws.com'
-            adminUsername: 'Codeception'
+        WPWebDriver:
+            url: 'http://ec2-3-89-195-229.compute-1.amazonaws.com'
+            window_size: maximize
+            adminUsername: 'admin'
             adminPassword: 'password'
             adminPath: /wp-admin
+            port: 4444
+            browser: phantomjs #./phantomjs --webdriver=4444
+            #browser: chrome #java -jar selenium.jar
