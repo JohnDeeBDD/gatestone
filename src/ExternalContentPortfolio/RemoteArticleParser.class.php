@@ -1,8 +1,8 @@
 <?php
 
-namespace ContentPortfolio;
+namespace ExternalContentPortfolio;
 
-class SeoArticleParser extends Parser{
+class RemoteArticleParser extends Parser{
     public $Url;
 
     public function processCPT($ID){

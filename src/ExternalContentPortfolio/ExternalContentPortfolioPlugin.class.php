@@ -1,8 +1,8 @@
 <?php
 
-namespace ContentPortfolio;
+namespace ExternalContentPortfolio;
 
-class ContentPortfolioPlugin{
+class ExternalContentPortfolioPlugin{
     
     public function __construct(){
 
@@ -17,6 +17,10 @@ class ContentPortfolioPlugin{
     }
     
     public function listenForNewExternalContentCptSubmission(){
-        add_action('init', array(new CptSubmissionListener, 'listenForFormSubmission'));
+
+        $CptSubmissionListener = new CptSubmissionListener();
+        if($CptSubmissionListener->isFormSubmitted()) {
+            add_action('init', array(new CptSubmissionListener, 'listenForFormSubmission'));
+        }
     }
 }

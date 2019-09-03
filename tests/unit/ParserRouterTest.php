@@ -8,6 +8,6 @@ class ParserRouterTest extends \Codeception\TestCase\WPTestCase{
      */
     public function it_should_be_instantiatable(){
         $Url = "https://generalchicken.net";
-        $ParserRouter = new ContentPortfolio\ParserRouter($Url);
+        $ParserRouter = new ExternalContentPortfolio\ParserRouter($Url);
     }
 }   

@@ -1,6 +1,6 @@
 <?php
 
-namespace ContentPortfolio;
+namespace ExternalContentPortfolio;
 
 class CptEditorListModifier{
     

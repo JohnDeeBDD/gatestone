@@ -1,5 +1,5 @@
 <?php
 
-namespace ContentPortfolio;
+namespace ExternalContentPortfolio;
 
 class QuoraParser extends Parser{}

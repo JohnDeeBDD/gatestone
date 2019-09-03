@@ -9,16 +9,18 @@
  GitHub Plugin URI: https://github.com/JohnDeeBDD/external-content-portfolio
  */
 
-namespace ContentPortfolio;
+namespace ExternalContentPortfolio;
 
-require_once (plugin_dir_path(__FILE__). 'src/ContentPortfolio/autoloader.php');
+//die('content-porfolio.php');
 
-$Plugin = new ContentPortfolioPlugin;
+require_once (plugin_dir_path(__FILE__). 'src/ExternalContentPortfolio/autoloader.php');
+
+$Plugin = new ExternalContentPortfolioPlugin;
+
 
 $Plugin->registerCptExternalContent();
 $Plugin->modifyExternalContentCptEditor();
 $Plugin->listenForNewExternalContentCptSubmission();
-
 //it should get the title from the URL
 
 //it should get the featured image of the post and store it as a featured image of the new post
@@ -28,3 +30,5 @@ $Plugin->listenForNewExternalContentCptSubmission();
 //pulls them down into the local instalation's media library. For now, I'll popping up the other tab and having the user manually copy and
 //paste the image URL, which then gets assigned to the new external content CPT. Finally, this is so the external content CPT and the actual
 //external content have the same image.
+//text-align: center
+//entry-title

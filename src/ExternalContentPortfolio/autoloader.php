@@ -1,6 +1,6 @@
 <?php
 
-namespace ContentPortfolio;
+namespace ExternalContentPortfolio;
 
 function autoload($className){
 
