@@ -1,6 +1,6 @@
 <?php
 
-namespace ExternalContentPortfolio;
+namespace Gatestone;
 
 function autoload($className){
 

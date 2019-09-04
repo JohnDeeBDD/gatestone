@@ -1,6 +1,6 @@
 <?php
 /*
- Plugin Name: External Content Portfolio
+ Plugin Name: Gatestone Institute
  Plugin URI: https://generalchicken.net
  Description: 
  Version: 2.0
