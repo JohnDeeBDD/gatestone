@@ -12,10 +12,10 @@ modules:
             dump: tests/_data/dump.sql
             populate: false
             cleanup: false
-            url: 'http://ec2-3-85-85-70.compute-1.amazonaws.com'
+            url: 'replaceme.com'
             tablePrefix: wp_
         WPWebDriver:
-            url: 'http://ec2-3-85-85-70.compute-1.amazonaws.com'
+            url: 'replaceme.com'
             #window_size: maximize
             adminUsername: 'admin'
             adminPassword: 'password'
