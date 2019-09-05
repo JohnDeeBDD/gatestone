@@ -1,0 +1,762 @@
+string(40919) "<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+<title>Tunisia :: Writings by Gatestone Institute</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Tunisia :: Writings by Gatestone Institute" />
+<meta name="keywords" content="Tunisia :: Writings by Gatestone Institute" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noarchive" />
+<meta name="Googlebot-news" content="noindex" />
+<meta property="og:site_name" content="Gatestone Institute" />
+<meta property="og:title" content="Writings by Topic: Tunisia" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="article:publisher" content="https://www.facebook.com/Gatestone.Institute" />
+<meta name="twitter:site" content="@GatestoneInst" />
+<link rel="alternate" type="application/rss+xml" href="/rss.xml" title="RSS feed" />
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.js"></script>
+
+<script type="text/javascript" src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+
+<link rel="manifest" href="/OneSignalManifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <script>
+    var OneSignal = OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "e200f6b1-54aa-499c-a4cd-6fc70af0587a",
+      safari_web_id: "web.onesignal.auto.32551e0e-3454-416e-9258-23f2fe99c3c8",
+      autoRegister: true,
+      notifyButton: {
+        enable: false
+        },
+      welcomeNotification: {
+        disable: true
+      }
+    }]);
+  </script>
+
+<link type="text/css" media="screen" rel="stylesheet" href="https://www.gatestoneinstitute.org/includes/colorbox/example1/colorbox.css" />
+<script type="text/javascript" src="https://www.gatestoneinstitute.org/includes/colorbox/jquery.colorbox-min.js"></script>
+
+<script type="text/javascript">if (location.hash === '#print') { window.print(); }</script>
+
+<link type="text/css" media="screen" rel="stylesheet" href="https://www.gatestoneinstitute.org/includes/doctextsizer.css" />
+<script type="text/javascript" src="https://www.gatestoneinstitute.org/includes/doctextsizer.js"></script>
+
+
+<link rel="stylesheet" href="https://www.gatestoneinstitute.org/style.css" type="text/css" />
+<style type="text/css">
+<!--
+@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} } /* needed for checkbox hack */
+
+.nav {
+  position: relative;
+  -webkit-animation: bugfix infinite 1s;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  color: #F2F2F2;
+  background: #727177;
+  border-bottom: 3px solid #da521e;
+}
+.nav ul {
+  display: none;
+  width: 100%;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.nav ul li a {
+  display: block;
+  padding: 9px 10px;
+  background: #727177;
+  color: #F2F2F2;
+  text-decoration: none;
+  border-right: 1px solid #b9b2b9;
+  white-space:nowrap;
+}
+.nav ul li a:hover {
+  background: #da521e;
+}
+.nav ul li:last-of-type a {
+  border-right: 0px;
+}
+.nav ul li ul li a {
+  padding-left: 1.5em;
+}
+.nav ul li ul li ul li a {
+  padding-left: 3.125em;
+}
+.nav input.trigger {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.nav input.trigger:checked ~ ul, .nav input.trigger:checked ~ ul li ul {
+  display: block !important;
+}
+@media (min-width: 900px) {
+  .nav input.trigger:checked ~ ul, .nav input.trigger:checked ~ ul li ul {
+    /* older flexbox */
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    /* newer flexbox */
+    display: flex;
+    flex-direction: row;
+  }
+}
+.nav label {
+  position: relative;
+  display: block;
+  min-height: 2em;
+  padding: .45em;
+  margin: 0;
+  cursor: pointer;
+  line-height: 2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.nav label:after {
+  position: absolute;
+  right: 1em;
+  top: .2em;
+  content: "\2261";
+  font-stretch: ultra-expanded;
+  font-size: 1.8em;
+  color: white;
+}
+@media (min-width: 750px) {
+  .nav ul {
+    /* older flexbox */
+    display: -ms-flexbox;
+    flex-direction: -ms-row;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    /* newer flexbox */
+    display: flex;
+    flex-direction: row;
+  }
+  .nav ul li {
+    position: relative;
+    text-align: center;
+    /* older flexbox */
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    /* newer flexbox */
+    flex: 1;
+  }
+  .nav ul li ul {
+    display: none !important;
+    position: absolute;
+    top: 3.0625em;
+    left: 0;
+    display: block;
+    width: 12.5em;
+    z-index: 200;
+  }
+  .nav ul li ul li {
+    text-align: left;
+  }
+  .nav ul li ul li ul {
+    z-index: 300;
+    top: 0px;
+    left: 12.4em;
+  }
+  .nav ul li ul li ul li a {
+    padding-left: 30px !important;
+  }
+  .nav ul li:hover > ul {
+    display: block !important;
+  }
+  .nav label {
+    display: none;
+  }
+}
+
+.video-wrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 */
+padding-top: 25px;
+height: 0;
+}
+.video-wrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+-->
+</style>
+
+<link rel="stylesheet" href="https://www.gatestoneinstitute.org/style_print.css" type="text/css" />
+<link rel="shortcut icon" href="https://www.gatestoneinstitute.org/favicon.ico" type="image/x-icon" />
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1204171852946298');
+fbq('track', "PageView");
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1204171852946298&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<link rel="stylesheet" type="text/css" href="https://www.gatestoneinstitute.org/includes/dataTables/media/css/jquery.dataTables.css">
+<script type="text/javascript" src="https://www.gatestoneinstitute.org/includes/dataTables/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://www.gatestoneinstitute.org/includes/dataTables/media/js/strip-punc.js"></script>
+<link rel="stylesheet" type="text/css" href="https://www.gatestoneinstitute.org/includes/dataTables/extensions/FixedHeader/css/dataTables.fixedHeader.css">
+<script type="text/javascript" src="https://www.gatestoneinstitute.org/includes/dataTables/extensions/FixedHeader/js/dataTables.fixedHeader.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+$('.datatable td:last-child').css({'white-space':'nowrap'});
+
+$('.datatable').dataTable({
+paging: false,
+language: {
+search: "Filter the List:",
+},
+'order': [[ 2, 'desc' ]]
+});
+
+var table = $('.datatable').DataTable();
+new $.fn.dataTable.FixedHeader( table );
+
+});
+</script>
+
+<style type="text/css">
+
+h2 {
+font-family: Arial, sans-serif;
+font-size: 17px;
+}
+
+input.text, select.text {
+font-size:10px;
+margin:0;
+padding:1px 0 1px 2px;
+display:inline;
+border:1px solid gray;
+}
+
+select.text {
+margin:0;
+padding:0;
+}
+
+.datatable {
+font-family:Arial, sans-serif;
+font-size: 13px;
+}
+
+.datatable th { text-align: left; }
+.datatable td { padding-left:8px !important; padding-right:8px !important; }
+.datatable tr td:last-child { white-space:nowrap; }
+.datatable A:link { text-decoration: none !important; }
+A:hover { color: #ad3031; }
+</style>
+
+<style type="text/css" media="print">
+<!--
+body { background:#FFFFFF; }
+
+.table_main {
+width:100%;
+border:none;
+}
+#content_cell {
+width: 100%;
+padding:0;
+background:none;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<div id="body_wrapper" style="background:#FFFFFF; margin:auto; margin-top:0; padding:0; max-width:1020px;">
+<header class="no_print nocontent" style="margin:auto; margin-top:0; max-width:1020px;">
+
+<div style="margin:auto; vertical-align:middle; text-align:center;">
+<a href="https://www.gatestoneinstitute.org"><img src="https://www.gatestoneinstitute.org/images/gatestone-logo-1000.gif" border="0" alt="Gatestone Institute" title="Gatestone Institute" class="force_print" id="logo_top" valign="middle" /></a>
+</div>
+
+
+<div style="text-align:right; margin:0px 20px 0 20px;">
+
+<div class="desktop_only" style="text-align:right; padding-top:10px; width:100%;">
+<div style="text-align:right;">
+
+<style type="text/css">
+<!--
+.lang_links td {
+padding: 0px 2px 0px 2px;
+line-height: initial;
+text-align: center;
+font-family: Arial, sans-serif;
+font-size:9px;
+}
+
+.lang_links tr td:last-child {
+padding-right: 0px;
+}
+-->
+</style>
+<table cellpadding="0" cellspacing="0" border="0" class="lang_links" style="margin:11px 0 5px 0;">
+<tr><td><a href="https://ar.gatestoneinstitute.org" title="&#x627;&#x644;&#x639;&#x631;&#x628;&#x64A;&#x629;"><img src="https://www.gatestoneinstitute.org/images/icons/flags/ar.png" width="32" height="20" border="0" alt="&#x627;&#x644;&#x639;&#x631;&#x628;&#x64A;&#x629;" /></a></td>
+<td><a href="https://cs.gatestoneinstitute.org" title="&#268;e&scaron;tina"><img src="https://www.gatestoneinstitute.org/images/icons/flags/cs.png" width="32" height="20" border="0" alt="&#268;e&scaron;tina" /></a></td>
+<td><a href="https://da.gatestoneinstitute.org" title="Dansk"><img src="https://www.gatestoneinstitute.org/images/icons/flags/da.png" width="32" height="20" border="0" alt="Dansk" /></a></td>
+<td><a href="https://de.gatestoneinstitute.org" title="Deutsch"><img src="https://www.gatestoneinstitute.org/images/icons/flags/de.png" width="32" height="20" border="0" alt="Deutsch" /></a></td>
+<td><a href="https://el.gatestoneinstitute.org" title="&#x395;&#x3BB;&#x3BB;&#x3B7;&#x3BD;&#x3B9;&#x3BA;&#x3AC;"><img src="https://www.gatestoneinstitute.org/images/icons/flags/el.png" width="32" height="20" border="0" alt="&#x395;&#x3BB;&#x3BB;&#x3B7;&#x3BD;&#x3B9;&#x3BA;&#x3AC;" /></a></td>
+<td><a href="https://www.gatestoneinstitute.org" title="English"><img src="https://www.gatestoneinstitute.org/images/icons/flags/en.png" width="32" height="20" border="0" alt="English" /></a></td>
+<td><a href="https://es.gatestoneinstitute.org" title="Espa&#241;ol"><img src="https://www.gatestoneinstitute.org/images/icons/flags/es.png" width="32" height="20" border="0" alt="Espa&#241;ol" /></a></td>
+<td><a href="https://fr.gatestoneinstitute.org" title="Fran&ccedil;ais"><img src="https://www.gatestoneinstitute.org/images/icons/flags/fr.png" width="32" height="20" border="0" alt="Fran&ccedil;ais" /></a></td>
+<td><a href="https://he.gatestoneinstitute.org" title="עברית"><img src="https://www.gatestoneinstitute.org/images/icons/flags/he.png" width="32" height="20" border="0" alt="עברית" /></a></td>
+<td><a href="https://it.gatestoneinstitute.org" title="Italiano"><img src="https://www.gatestoneinstitute.org/images/icons/flags/it.png" width="32" height="20" border="0" alt="Italiano" /></a></td>
+<td><a href="https://nl.gatestoneinstitute.org" title="Nederlands"><img src="https://www.gatestoneinstitute.org/images/icons/flags/nl.png" width="32" height="20" border="0" alt="Nederlands" /></a></td>
+<td><a href="https://pl.gatestoneinstitute.org" title="Polski"><img src="https://www.gatestoneinstitute.org/images/icons/flags/pl.png" width="32" height="20" border="0" alt="Polski" /></a></td>
+<td><a href="https://pt.gatestoneinstitute.org" title="Portugu&#234;s"><img src="https://www.gatestoneinstitute.org/images/icons/flags/pt.png" width="32" height="20" border="0" alt="Portugu&#234;s" /></a></td>
+<td><a href="https://ru.gatestoneinstitute.org" title="Pycc&#x138;&#x438;&#x439;"><img src="https://www.gatestoneinstitute.org/images/icons/flags/ru.png" width="32" height="20" border="0" alt="Pycc&#x138;&#x438;&#x439;" /></a></td>
+<td><a href="https://sk.gatestoneinstitute.org" title="Sloven&#269;ina"><img src="https://www.gatestoneinstitute.org/images/icons/flags/sk.png" width="32" height="20" border="0" alt="Sloven&#269;ina" /></a></td>
+<td><a href="https://sv.gatestoneinstitute.org" title="Svenska"><img src="https://www.gatestoneinstitute.org/images/icons/flags/sv.png" width="32" height="20" border="0" alt="Svenska" /></a></td>
+</tr>
+<tr><td><a href="https://ar.gatestoneinstitute.org" title="&#x627;&#x644;&#x639;&#x631;&#x628;&#x64A;&#x629;" style="color:black; text-decoration:none;">&#x627;&#x644;&#x639;&#x631;&#x628;&#x64A;&#x629;</a></td>
+<td><a href="https://cs.gatestoneinstitute.org" title="&#268;e&scaron;tina" style="color:black; text-decoration:none;">&#268;e&scaron;tina</a></td>
+<td><a href="https://da.gatestoneinstitute.org" title="Dansk" style="color:black; text-decoration:none;">Dansk</a></td>
+<td><a href="https://de.gatestoneinstitute.org" title="Deutsch" style="color:black; text-decoration:none;">Deutsch</a></td>
+<td><a href="https://el.gatestoneinstitute.org" title="&#x395;&#x3BB;&#x3BB;&#x3B7;&#x3BD;&#x3B9;&#x3BA;&#x3AC;" style="color:black; text-decoration:none;">&#x395;&#x3BB;&#x3BB;&#x3B7;&#x3BD;&#x3B9;&#x3BA;&#x3AC;</a></td>
+<td><a href="https://www.gatestoneinstitute.org" title="English" style="color:black; text-decoration:none;">English</a></td>
+<td><a href="https://es.gatestoneinstitute.org" title="Espa&#241;ol" style="color:black; text-decoration:none;">Espa&#241;ol</a></td>
+<td><a href="https://fr.gatestoneinstitute.org" title="Fran&ccedil;ais" style="color:black; text-decoration:none;">Fran&ccedil;ais</a></td>
+<td><a href="https://he.gatestoneinstitute.org" title="עברית" style="color:black; text-decoration:none;">עברית</a></td>
+<td><a href="https://it.gatestoneinstitute.org" title="Italiano" style="color:black; text-decoration:none;">Italiano</a></td>
+<td><a href="https://nl.gatestoneinstitute.org" title="Nederlands" style="color:black; text-decoration:none;">Nederlands</a></td>
+<td><a href="https://pl.gatestoneinstitute.org" title="Polski" style="color:black; text-decoration:none;">Polski</a></td>
+<td><a href="https://pt.gatestoneinstitute.org" title="Portugu&#234;s" style="color:black; text-decoration:none;">Portugu&#234;s</a></td>
+<td><a href="https://ru.gatestoneinstitute.org" title="Pycc&#x138;&#x438;&#x439;" style="color:black; text-decoration:none;">Pycc&#x138;&#x438;&#x439;</a></td>
+<td><a href="https://sk.gatestoneinstitute.org" title="Sloven&#269;ina" style="color:black; text-decoration:none;">Sloven&#269;ina</a></td>
+<td><a href="https://sv.gatestoneinstitute.org" title="Svenska" style="color:black; text-decoration:none;">Svenska</a></td>
+</tr>
+</table>
+
+</div>
+</div> <!-- END no_mobile -->
+
+<div class="mobile_center_middle">
+<div class="follow_tools mobile_center_middle" style="border:none;">
+<span style="white-space:nowrap; margin:auto; vertical-align:middle;">
+
+<a href="https://www.facebook.com/Gatestone.Institute"><img src="https://www.gatestoneinstitute.org/images/icons/round_facebook_128.png" border="0" alt="Facebook" title="Facebook" /></a>&nbsp;&nbsp;<a href="https://twitter.com/GatestoneInst"><img src="https://www.gatestoneinstitute.org/images/icons/round_twitter_128.png" border="0" alt="Twitter" title="Twitter" /></a>&nbsp;&nbsp;<a href="https://plus.google.com/+GatestoneInst"><img src="https://www.gatestoneinstitute.org/images/icons/round_google_128.png" border="0" alt="Google+" title="Google+" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/company/gatestone-institute"><img src="https://www.gatestoneinstitute.org/images/icons/round_linkedin_128.png" border="0" alt="LinkedIn" title="LinkedIn" /></a>&nbsp;&nbsp;<a href="https://www.youtube.com/c/GatestoneInst"><img src="https://www.gatestoneinstitute.org/images/icons/round_youtube_128.png" border="0" alt="YouTube" title="YouTube" /></a>&nbsp;&nbsp;<a href="/rss.xml"><img src="https://www.gatestoneinstitute.org/images/icons/round_rss_128.png" border="0" alt="RSS" title="RSS" /></a>
+
+</span>
+</div>
+
+<div id="search_form" style="margin-bottom:15px; white-space:nowrap; vertical-align:middle;">
+<form method="get" action="https://www.gatestoneinstitute.org/search.php" style="margin:0; padding:0;"> 
+<input type="hidden" name="cx" value="014255815713646959106:fcvl99skesi" />
+<input type="hidden" name="cof" value="FORID:9" />
+<input type="hidden" name="ie" value="UTF-8" />
+<input name="q" id="search" type="text" size="25" placeholder="Search" style="border:1px solid black; padding:3px 8px;" />
+<input type="submit" name="sa" value="Search" style="padding:2px 8px; background:#294266; color:white; font-weight:bold; border:1px solid #294266; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;" />
+</form>
+</div>
+</div>
+
+</div>
+
+<div style="clear:both;"></div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('.nav_search_link').live('click', function(){
+$('#mobile_search').append($('#search_form')).html();
+$('#mobile_search').show();
+$('#search_form').slideDown();
+return false;
+});
+});
+</script>
+
+<nav role="navigation" class="nav nocontent no_print">
+<input class="trigger" type="checkbox" id="mainNavButton">
+<label for="mainNavButton" onclick>Navigation Menu</label>
+<ul>
+<li><a href="https://www.gatestoneinstitute.org/about/">About Us</a></li>
+<li><a href="https://www.gatestoneinstitute.org/events.php">Events</a></li>
+<li><a href="https://www.gatestoneinstitute.org/experts/">Experts</a></li>
+<li><a href="https://www.gatestoneinstitute.org/authors/">Authors</a></li>
+<li><a href="https://www.gatestoneinstitute.org/contribute.php">Donate</a></li>
+<li><a href="https://www.gatestoneinstitute.org/archives/">Archives</a></li>
+<li><a href="https://www.gatestoneinstitute.org/list_subscribe.php">Mailing List</a></li>
+<li><a href="https://www.gatestoneinstitute.org/in-the-media/">Media Citations</a></li>
+<li><a href="https://www.gatestoneinstitute.org/about/contact/">Contact</a></li>
+<li class="nav_search"><a href="#" class="nav_search_link">Search</a></li>
+</ul>
+</nav>
+
+<div id="mobile_search" style="margin-top:15px; width:100%; text-align:center;"></div>
+</header>
+
+<table class="table_main" cellspacing="0" cellpadding="0" border="0" align="center" style="clear:both;">
+<tr>
+<td id="content_cell">
+<div id="content_cell_padding">
+
+<table class="block" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td width="100%" style="padding-right:10px;">
+<h1 style="padding:0; margin:5px 0 0 0;"><span style="white-space:nowrap;">Writings by Topic:</span> <span style="white-space:nowrap;">Tunisia</span> <div style="display:block; margin:15px 0 5px 0; padding:0; font-size:14px; line-height:1;"><form method="get" action="?" style="display:inline; margin:0; padding:0;">
+<select name="year" size="1" class="text" style="vertical-align:text-bottom;" onChange="this.form.submit();">
+<option value="">All Years</option>
+<option value="2018">2018</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+</select>
+<input type="submit" value="Go" id="submit_year" class="text" style="padding:0; margin:0;" />
+</form>
+ <form method="post" name="cat_form" id="cat_form" style="display:none; margin:0; padding:0;">
+<select name="cat_urls" size="1" class="text" style="vertical-align:text-bottom;" onChange="window.location=document.cat_form.cat_urls.options[document.cat_form.cat_urls.selectedIndex].value">
+<option value="https://www.gatestoneinstitute.org/articles/">All Topics</option>
+<option value="https://www.gatestoneinstitute.org/topics/23/bangladesh">Bangladesh</option>
+<option value="https://www.gatestoneinstitute.org/topics/10/china">China</option>
+<option value="https://www.gatestoneinstitute.org/topics/20/egypt">Egypt</option>
+<option value="https://www.gatestoneinstitute.org/topics/37/europes-migrant-crisis">Europe's Migrant Crisis</option>
+<option value="https://www.gatestoneinstitute.org/topics/11/france">France</option>
+<option value="https://www.gatestoneinstitute.org/topics/12/germany">Germany</option>
+<option value="https://www.gatestoneinstitute.org/topics/27/india">India</option>
+<option value="https://www.gatestoneinstitute.org/topics/16/iran">Iran</option>
+<option value="https://www.gatestoneinstitute.org/topics/38/iranian-nuclear-program">Iranian Nuclear Program</option>
+<option value="https://www.gatestoneinstitute.org/topics/28/iraq">Iraq</option>
+<option value="https://www.gatestoneinstitute.org/topics/22/israel">Israel</option>
+<option value="https://www.gatestoneinstitute.org/topics/29/italy">Italy</option>
+<option value="https://www.gatestoneinstitute.org/topics/35/kurdistan">Kurdistan</option>
+<option value="https://www.gatestoneinstitute.org/topics/31/lebanon">Lebanon</option>
+<option value="https://www.gatestoneinstitute.org/topics/41/national-defense">National Defense</option>
+<option value="https://www.gatestoneinstitute.org/topics/18/nigeria">Nigeria</option>
+<option value="https://www.gatestoneinstitute.org/topics/24/north-korea">North Korea</option>
+<option value="https://www.gatestoneinstitute.org/topics/26/pakistan">Pakistan</option>
+<option value="https://www.gatestoneinstitute.org/topics/34/palestinian-authority">Palestinian Authority</option>
+<option value="https://www.gatestoneinstitute.org/topics/40/persecution-of-minorities">Persecution of Minorities</option>
+<option value="https://www.gatestoneinstitute.org/topics/32/persian-gulf">Persian Gulf</option>
+<option value="https://www.gatestoneinstitute.org/topics/17/russia">Russia</option>
+<option value="https://www.gatestoneinstitute.org/topics/25/saudi-arabia">Saudi Arabia</option>
+<option value="https://www.gatestoneinstitute.org/topics/21/spain">Spain</option>
+<option value="https://www.gatestoneinstitute.org/topics/36/sweden">Sweden</option>
+<option value="https://www.gatestoneinstitute.org/topics/30/syria">Syria</option>
+<option value="https://www.gatestoneinstitute.org/topics/39/threats-to-free-speech">Threats to Free Speech</option>
+<option value="https://www.gatestoneinstitute.org/topics/19/tunisia" SELECTED>Tunisia</option>
+<option value="https://www.gatestoneinstitute.org/topics/15/turkey">Turkey</option>
+<option value="https://www.gatestoneinstitute.org/topics/13/united-kingdom">United Kingdom</option>
+<option value="https://www.gatestoneinstitute.org/topics/14/venezuela">Venezuela</option>
+</select>
+</form>
+ </div><script type="text/javascript">
+document.getElementById('submit_year').style.display = 'none';
+document.getElementById('cat_form').style.display = 'inline';
+</script></h1>
+</td>
+</tr>
+</table>
+
+<table class="datatable display compact block" width="100%" cellpadding="7" cellspacing="0" border="0">
+<thead>
+<tr class="no_mobile">
+<th style="border-top:1px solid black; border-bottom:1px solid black; font-family:Arial,sans-serif; font-size:15px;"><b>Title</b></th>
+<th style="border-top:1px solid black; border-bottom:1px solid black; font-family:Arial,sans-serif; font-size:15px;"><b>Author</b></th>
+<th style="border-top:1px solid black; border-bottom:1px solid black; font-family:Arial,sans-serif; font-size:15px;"><b>Date</b></th>
+</tr>
+</thead>
+<tbody>
+<tr><td data-order="3"><a href="https://www.gatestoneinstitute.org/12793/arab-spring-yesterday-and-today-the-tunisian">'Arab Spring' Yesterday and Today: The Tunisian Template</a></td><td data-order="13">Tommaso Virgili</td><td>2018/08/02</td></tr>
+<tr><td data-order="1"><a href="https://www.gatestoneinstitute.org/8770/tunisia-culture-hate">An Inherited Culture of Hate</a></td><td data-order="12">Tharwa Boulifi</td><td>2016/09/09</td></tr>
+<tr><td data-order="28"><a href="https://www.gatestoneinstitute.org/6238/tunisia-terrorism">What Can We Do If We Would Really Like to Fight Terrorism in Tunisia?</a></td><td data-order="8">Hayet Ben Said</td><td>2015/08/11</td></tr>
+<tr><td data-order="10"><a href="https://www.gatestoneinstitute.org/3315/tunisian-values">The Trouble with Tunisian Values</a></td><td data-order="5">Daniel Greenfield</td><td>2012/08/29</td></tr>
+<tr><td data-order="4"><a href="https://www.gatestoneinstitute.org/3092/tunisia-muslims-slaughter-apostate">Graphic Video: Muslims Slaughter "Apostate" in Tunisia</a></td><td data-order="11">Raymond Ibrahim</td><td>2012/06/04</td></tr>
+<tr><td data-order="27"><a href="https://www.gatestoneinstitute.org/3051/tunisian-universities-islamist-siege">Tunisian Universities Under Islamist Siege</a></td><td data-order="3">Anna Mahjar-Barducci</td><td>2012/05/08</td></tr>
+<tr><td data-order="17"><a href="https://www.gatestoneinstitute.org/3025/tunisia-religious-persecution">Tunisia's Religious Persecution</a></td><td data-order="3">Anna Mahjar-Barducci</td><td>2012/04/20</td></tr>
+<tr><td data-order="26"><a href="https://www.gatestoneinstitute.org/2972/tunisian-salafists">Tunisian Salafists: Who Are They?</a></td><td data-order="3">Anna Mahjar-Barducci</td><td>2012/03/27</td></tr>
+<tr><td data-order="25"><a href="https://www.gatestoneinstitute.org/2960/tunisia-salafists-sharia-law">Tunisia: Thousands of Salafists Rally for Sharia Law</a></td><td data-order="3">Anna Mahjar-Barducci</td><td>2012/03/21</td></tr>
+<tr><td data-order="23"><a href="https://www.gatestoneinstitute.org/2902/tunisia-dictatorship">Tunisia: From One Dictatorship To Another</a></td><td data-order="3">Anna Mahjar-Barducci</td><td>2012/03/01</td></tr>
+<tr><td data-order="16"><a href="https://www.gatestoneinstitute.org/2899/tunisia-islamist-police">Tunisia's New Islamist Police</a></td><td data-order="3">Anna Mahjar-Barducci</td><td>2012/02/29</td></tr>
+<tr><td data-order="2"><a href="https://www.gatestoneinstitute.org/2894/tunisia-secularism">Arab Spring Brings the Decline of Secularism in Tunisia</a></td><td data-order="1">Aidan Clay</td><td>2012/02/28</td></tr>
+<tr><td data-order="7"><a href="https://www.gatestoneinstitute.org/2874/tunisia-salafists">Salafists in Tunisia</a></td><td data-order="3">Anna Mahjar-Barducci</td><td>2012/02/23</td></tr>
+<tr><td data-order="20"><a href="https://www.gatestoneinstitute.org/2820/tunisia-kill-the-jews">Tunisia: "Kill the Jews"</a></td><td data-order="10">Mohshin Habib</td><td>2012/02/06</td></tr>
+<tr><td data-order="5"><a href="https://www.gatestoneinstitute.org/2788/tunsia-islamists-taking-over">Islamists Take Over Tunisia</a></td><td data-order="3">Anna Mahjar-Barducci</td><td>2012/01/27</td></tr>
+<tr><td data-order="24"><a href="https://www.gatestoneinstitute.org/2728/tunisia-ennahda-autocratic-coup">Tunisia: The Ennahda Party's Autocratic "Coup"</a></td><td data-order="3">Anna Mahjar-Barducci</td><td>2012/01/04</td></tr>
+<tr><td data-order="15"><a href="https://www.gatestoneinstitute.org/2650/tunisia-single-mothers">Tunisia's "Liberal" MP: "Single Mothers Have No Right to Exist"</a></td><td data-order="3">Anna Mahjar-Barducci</td><td>2011/12/09</td></tr>
+<tr><td data-order="18"><a href="https://www.gatestoneinstitute.org/2644/tunisia-religious-police">Tunisia's Religious Police</a></td><td data-order="3">Anna Mahjar-Barducci</td><td>2011/12/07</td></tr>
+<tr><td data-order="8"><a href="https://www.gatestoneinstitute.org/2635/secular-syria-islam">Secular Syria's Opportunistic Use of Islam</a></td><td data-order="15">Valentina Colombo</td><td>2011/12/02</td></tr>
+<tr><td data-order="13"><a href="https://www.gatestoneinstitute.org/2549/ennahda-uses-turkey-as-model-for-democracy">Tunisia Uses Turkey as Model for Democracy</a></td><td data-order="2">AK Group</td><td>2011/10/31</td></tr>
+<tr><td data-order="14"><a href="https://www.gatestoneinstitute.org/1970/tunisia-wont-use-islamist-led-turkey">Tunisia Won't Use Islamist-Led Turkey as a Model, Rebel Leader Says</a></td><td data-order="2">AK Group</td><td>2011/03/16</td></tr>
+<tr><td data-order="12"><a href="https://www.gatestoneinstitute.org/1845/tunisian-revolution-cuba">The Tunisian Revolution As Seen By Cuba</a></td><td data-order="3">Anna Mahjar-Barducci</td><td>2011/02/02</td></tr>
+<tr><td data-order="11"><a href="https://www.gatestoneinstitute.org/1832/tunisian-disorder-causes">The Tunisian Disorder: Causes and Consequences</a></td><td data-order="7">Guy Millière</td><td>2011/01/30</td></tr>
+<tr><td data-order="21"><a href="https://www.gatestoneinstitute.org/1835/tunisia-al-jazeera-islamist-revolution">Tunisia: Al-Jazeera's Islamist Revolution</a></td><td data-order="14">Tuvia Tenenbom</td><td>2011/01/28</td></tr>
+<tr><td data-order="22"><a href="https://www.gatestoneinstitute.org/1838/rachid-ghannouchi-islamist">Tunisia: Don't Be Fooled, Returning Islamist Rachid Ghannouchi Is Not a Moderate</a></td><td data-order="6">Gabriel Scheinmann</td><td>2011/01/28</td></tr>
+<tr><td data-order="6"><a href="https://www.gatestoneinstitute.org/1816/revolution-in-tunisia">Revolution In Tunisia: What Next?</a></td><td data-order="9">Mark Silverberg</td><td>2011/01/24</td></tr>
+<tr><td data-order="9"><a href="https://www.gatestoneinstitute.org/1114/the-holocaust-to-muslims-rabat-casablanca-tunis-istanbul-cairo-baghdad-erbil-amman-jerusalem-and-naz">The  Holocaust to Muslims:  Rabat, Casablanca, Tunis, Istanbul, Cairo, Baghdad, Erbil, Amman, Jerusalem and Nazareth.</a></td><td data-order="4">Anne-Marie Revcolevschi</td><td>2010/03/24</td></tr>
+<tr><td data-order="19"><a href="https://www.gatestoneinstitute.org/997/tunisia-if-you-close-your-computer-ill-talk-to-you">Tunisia: "If You Close Your Computer, I'll Talk to You"</a></td><td data-order="14">Tuvia Tenenbom</td><td>2010/01/20</td></tr>
+
+</tbody>
+</table>
+
+</td>
+
+<td id="sidebar" class="no_print nocontent" style="padding:12px 0 0 0; margin:auto; text-align:center;">
+<div style="margin:auto; text-align:left;">
+
+<div style="padding:0 33px; margin-bottom:20px;">
+<div class="subscribe-title">Get Free Exclusive Gatestone Content: </div>
+<form id="form1" method="POST" action="https://gatestoneinstitute.us9.list-manage.com/subscribe/post?u=ae44aaf3f07dbffc928ba7cb5&id=ef816ce96c" style="margin:0; padding:0;">
+<input type="email" class="address" name="EMAIL" placeholder="Email Address" size="20" style="direction:ltr; padding:5px 3px; background-color:#F6F6FC; border:1px solid #000000; color:#000000; width:175px;" required /> 
+<input type="submit" name="submit" value="Submit" style="border:1px solid #000; margin:0; padding:4px 5px; vertical-align:bottom;" />
+</form>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+$( '#side_links_tabs').tabs();
+});
+</script>
+<div id="side_links_tabs" class="right_box" style="border:none; border-bottom:1px dotted gray;">
+<ul style="font-size:13px; font-family:Arial,sans-serif !important;">
+<li><a href="#side-tabs-1"><b>Most Popular</b></a></li>
+<li><a href="#side-tabs-2"><b>Newest</b></a></li>
+</ul>
+<div id="side-tabs-1">
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/14794/the-dangerous-stalinism-of-the-woke-hard-left">The Dangerous Stalinism of the "Woke" Hard-Left</a></div>
+<div class="sidelink_byline">by Alan M. Dershowitz</div>
+</div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/14767/europe-dreams-immigration">European Dreams vs. Mass Migration</a></div>
+<div class="sidelink_byline">by Giulio Meotti</div>
+</div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/14786/europe-jewish-flesh-is-cheap">To European Leaders, Jewish Flesh Is Cheap</a></div>
+<div class="sidelink_byline">by Guy Millière</div>
+</div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/14727/iran-democrat-presidential-debates">Iran's Mullahs: Loving the Democrats' Presidential Debates</a></div>
+<div class="sidelink_byline">by Majid Rafizadeh</div>
+</div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/14788/trump-iran-deceiving-mullahs">Trump and the Deceiving of Mullahs</a></div>
+<div class="sidelink_byline">by Amir Taheri</div>
+</div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/14804/iran-zarif-welcome-europe">Zarif's Inexcusable Warm Welcome in Europe</a></div>
+<div class="sidelink_byline">by Mina Bai</div>
+</div>
+</div>
+<div id="side-tabs-2">
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/14817/italy-matteo-salvini">Italy: Salvini Down but Not Out</a></div>
+<div class="sidelink_byline">by Soeren Kern</div>
+</div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/14785/boko-haram-bloody-terror">Boko Haram: Bloody Terror, No End in Sight</a></div>
+<div class="sidelink_byline">by Uzay Bulut</div>
+</div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/14804/iran-zarif-welcome-europe">Zarif's Inexcusable Warm Welcome in Europe</a></div>
+<div class="sidelink_byline">by Mina Bai</div>
+</div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/14787/erdogan-elections-losses">Erdoğan's Elections: Heads I Win, Tails You Lose</a></div>
+<div class="sidelink_byline">by Burak Bekdil</div>
+</div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/14767/europe-dreams-immigration">European Dreams vs. Mass Migration</a></div>
+<div class="sidelink_byline">by Giulio Meotti</div>
+</div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/14788/trump-iran-deceiving-mullahs">Trump and the Deceiving of Mullahs</a></div>
+<div class="sidelink_byline">by Amir Taheri</div>
+</div>
+</div>
+
+</div>
+<div class="right_box" style="width:100%;">
+<p class="right_box_heading"><b>Top Issues</b></p>
+<div class="right_box_inner">
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/topics/37/europes-migrant-crisis">Europe's Migrant Crisis</a></div></div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/topics/38/iranian-nuclear-program">Iranian Nuclear Program</a></div></div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/topics/41/national-defense">National Defense</a></div></div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/topics/40/persecution-of-minorities">Persecution of Minorities</a></div></div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/topics/30/syria">Syria</a></div></div>
+<div class="sidelink">
+<div class="sidelink_headline"><a href="https://www.gatestoneinstitute.org/topics/39/threats-to-free-speech">Threats to Free Speech</a></div></div>
+</div>
+</div>
+
+<div style="margin:0 0 15px 0; padding-bottom: 10px; border-bottom:1px solid gray; text-align:center; ">
+<a href="https://www.amnesty.org/en/latest/news/2016/10/iran-writer-arrested-in-violent-raid-on-her-house-following-prison-sentence-for-story-about-stoning/" target=_blank style="text-decoration:none; color:black;">
+<div style="margin:0 12px 7px 12px; font-size:130%;"><b style="color:#B60505;">FREE GOLROKH EBRAHIMI IRAEE!</b></div>
+<div style="margin:0 16px 10px 16px; line-height:1.3; text-align:left;">Golrokh Ebrahimi Iraee, a writer and human rights activist, was arrested on October 24, 2016 by Iran's security forces, without any official summons, on unsubstantiated charges of "insulting Islamic sanctities" and "spreading propaganda against the system." While in hospital following surgery, she was sentenced to six years in prison, with no opportunity to defend herself in court.
+</div>
+<img src="https://www.gatestoneinstitute.org/pics/large/2088.jpg" border="0" style="margin:0; width:100%; max-width:350px;" >
+</a>
+</div>
+
+<a class="twitter-timeline" href="https://twitter.com/GatestoneInst" data-widget-id="364807082190446592" width="100%" style="max-width:100%!important;">Tweets by @GatestoneInst</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+</td>
+</tr>
+</table>
+
+<footer id="footer" class="no_print nocontent" style="margin:auto; margin-top:0; max-width:1020px;">
+<div style="padding:20px 30px;">
+
+  <p>Copyright &copy; 2019 Gatestone Institute. <br />All rights reserved.</p>
+
+<p>The articles printed here do not necessarily reflect the views of the Editors or of Gatestone Institute. 
+Both reserve the right not to publish replies to articles should they so choose.<br />
+Gatestone Institute is a 501(c)3 not-for-profit organization, Federal Tax ID #454724565.</p>
+
+<div class="title"><b>Gatestone Contacts</b></div>
+  <p>Contact: info@gatestoneinstitute.org<br />
+    Editorial: editor@gatestoneinstitute.org<br />
+Comments: support@parler.com</p>
+
+<p><a href="https://www.gatestoneinstitute.org/terms-of-use/">Terms of Use</a> &nbsp; <a href="https://www.gatestoneinstitute.org/privacy-policy/">Privacy &amp; Cookies Policy</a></p>
+
+</div>
+</footer>
+
+<nav role="navigation" class="nav nocontent no_print">
+<input class="trigger" type="checkbox" id="mainNavButton">
+<label for="mainNavButton" onclick>Navigation Menu</label>
+<ul>
+<li><a href="https://www.gatestoneinstitute.org/about/">About Us</a></li>
+<li><a href="https://www.gatestoneinstitute.org/events.php">Events</a></li>
+<li><a href="https://www.gatestoneinstitute.org/experts/">Experts</a></li>
+<li><a href="https://www.gatestoneinstitute.org/authors/">Authors</a></li>
+<li><a href="https://www.gatestoneinstitute.org/contribute.php">Donate</a></li>
+<li><a href="https://www.gatestoneinstitute.org/archives/">Archives</a></li>
+<li><a href="https://www.gatestoneinstitute.org/list_subscribe.php">Mailing List</a></li>
+<li><a href="https://www.gatestoneinstitute.org/in-the-media/">Media Citations</a></li>
+<li><a href="https://www.gatestoneinstitute.org/about/contact/">Contact</a></li>
+<li class="nav_search"><a href="#" class="nav_search_link">Search</a></li>
+</ul>
+</nav>
+
+
+</div><style type="text/css">
+
+.float-bar {
+background:#041a37;
+font-size: 14px;
+opacity:0.9;
+position:fixed;
+bottom:0;
+width: 100%;
+}
+
+.float-bar p {
+color: #FFFFFF;
+font-size: 14px;
+margin:0;
+padding: 15px 20px;
+}
+
+.float-bar a { color: #87cefa; }
+
+button.agree {
+background:transparent;
+border: 2px solid #6f90bb;
+border-radius: 2px;
+color: #FFFFFF;
+text-align: center;
+font-size: 16px;
+cursor: pointer;
+padding: 10px 30px;
+margin: 5px auto;
+display:inline-block;
+}
+
+button.agree:hover { background: #0f315f; }
+
+.container.bar { padding: 0; }
+
+.cookies-text {
+width:80%;
+float: left;
+}
+
+.cookies-btn {
+width: 20%;
+float: left;
+padding: 10px 0;
+}
+
+@media screen and (max-width: 750px) {
+.cookies-text { width: 100%; }
+.cookies-btn {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+.container.bar { text-align: center; }
+.float-bar p { padding-bottom: 0px; }
+
+}
+</style>
+
+<script type="text/javascript" src="https://www.gatestoneinstitute.org/includes/cookies_consent.js"></script>
+
+<div class="float-bar">
+<div class="container bar">
+<div class="cookies-text">
+<p>This website uses cookies to provide you with better services. <br /> To find out more, please review our <a href="https://www.gatestoneinstitute.org/privacy-policy/" target="_blank">Privacy and Cookies Policy</a>.</p>
+</div>
+<div class="cookies-btn"><button class="agree" onclick="removeGdpr();">OK</button></div>
+</div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5716735-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>"
