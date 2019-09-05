@@ -1,8 +1,6 @@
 <?php
 namespace Gatestone;
-
 class CurlParser{
-
   public function parseRow($row,$section){
     preg_match('|<tr><td(?:[^>]+)><a href="http(?:s?):\\/\\/([^\\/]*)\\/([^"]*)\\/([^"]*)"(?:.*)>(.*)<\\/a><\\/td><td(?:[^>]*)>(.*)<\\/td><td>(.*)<\\/td><\\/tr>|',$row,$matches);
     $sections=array('domain'=>1,'postID'=>2,'slug'=>3,'title'=>4,'author'=>5,'date'=>6);
@@ -34,33 +32,34 @@ class CurlParser{
   }
   
   public function returnArrayOfLinks($response){
-    /*
-    *  example cUrls:
-    *  https://www.gatestoneinstitute.org/topics/18/nigeria
-    *  https://ar.gatestoneinstitute.org/archives/
-    *  https://www.gatestoneinstitute.org/archives/
-    *  https://github.com/JohnDeeBDD/gatestone/blob/master/tests/unit/NigeriaResponse.html
-    *  you can do this but modify the path:
-    *  $response = file_get_contents('/var/www/html/wp-content/plugins/gatestone/tests/unit/NigeriaResponse.html');
-    *  tests: https://github.com/JohnDeeBDD/gatestone/blob/master/tests/unit/CurlParserTest.php
-    */
-    
-    return $arrayOfLinks;
-  }
-  
-    public function returnArrayOfTopics($response){
-    /*
-    *  example cUrls:
-    *  https://www.gatestoneinstitute.org/topics/18/nigeria
-    *  https://ar.gatestoneinstitute.org/archives/
-    *  https://www.gatestoneinstitute.org/archives/
-    *  https://github.com/JohnDeeBDD/gatestone/blob/master/tests/unit/NigeriaResponse.html
-    *  you can do this but modify the path:
-    *  $response = file_get_contents('/var/www/html/wp-content/plugins/gatestone/tests/unit/NigeriaResponse.html');
-    *  tests: https://github.com/JohnDeeBDD/gatestone/blob/master/tests/unit/CurlParserTest.php
-    */
-    
-    return $arrayOfTopics;
+    preg_match('|<table class="datatable display compact block"(?:.*\\n)*<tbody>((.?\\n?)*)<\\/tabl|',$response,$matches);
+    if ($matches && !empty($matches[1])){
+      preg_match_all('|<tr>.*<\\/tr>|',$matches[1],$trs);
+      if ($trs){
+        return $trs[0];
+      }
+    }
+    return false;
   }
 
+    public function returnArrayOfTopics($response){
+      
+    //remove the "selected" tag in the HTML:
+    $response = str_replace(" SELECTED", "", $response);
+
+    $arrayOfTopics=array();
+    preg_match('/<select name="cat_urls"(?:[^>]*)>((?:.*\\n)*)<\\/select/',$response,$matches);
+    if ($matches && !empty($matches[1])){
+      preg_match_all('|<option value="([^"]*)">(.*)<\\/option>|',$matches[1],$topics);
+      if ($topics){
+        $x=count($topics[0]);
+        for($i=0;$i<$x;$i++){
+          $arrayOfTopics[]=array('Url'=>$topics[1][$i],'topic'=>$topics[2][$i]);
+        }
+      }
+      $arrayOfTopics = array_splice($arrayOfTopics, 1);
+      return $arrayOfTopics;
+    }
+    return false;
+  }
 }

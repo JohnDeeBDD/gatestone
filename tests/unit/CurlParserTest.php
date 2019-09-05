@@ -144,7 +144,11 @@ class CurlParserTest extends \Codeception\TestCase\WPTestCase{
             array ("Url" => "https://www.gatestoneinstitute.org/topics/13/united-kingdom", "topic" => "United Kingdom"),
             array ("Url" => "https://www.gatestoneinstitute.org/topics/14/venezuela", "topic" => "Venezuela")
         );
-    $this->assertSame($arrayOfTopics, $responseArray, "the arrays do not match");
+        
+    ob_start();
+    var_dump($responseArray);
+    $resultDump = ob_get_clean();
+    $this->assertSame($arrayOfTopics, $responseArray, $resultDump);
         
     }
     
