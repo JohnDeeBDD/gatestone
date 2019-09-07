@@ -10,8 +10,11 @@
 
 namespace Gatestone;
 
+
 //die('content-porfolio.php');
 
 require_once (plugin_dir_path(__FILE__). 'src/Gatestone/autoloader.php');
 
 add_shortcode('scraper', array(new ShortcodeForm, "renderForm"));
+
+include_once("/var/www/html/wp-content/plugins/gatestone/src/Gatestone/CPT_mediaCitations.php");

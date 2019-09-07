@@ -14,7 +14,7 @@ class CurlParser{
   public function retunRemotePostID($row){
     return $this->parseRow($row,'postID');
   }
-  
+
   public function retunRemoteSlug($row){
     return $this->parseRow($row,'slug');
   }
@@ -32,17 +32,23 @@ class CurlParser{
   }
   
   public function returnArrayOfLinks($response){
-    preg_match('|<table class="datatable display compact block"(?:.*\\n)*<tbody>((.?\\n?)*)<\\/tabl|',$response,$matches);
-    if ($matches && !empty($matches[1])){
-      preg_match_all('|<tr>.*<\\/tr>|',$matches[1],$trs);
-      if ($trs){
+    $t1=explode('datatable display compact block',$response);
+    if (count($t1)!=2){
+        return false;
+    }
+    $t2=explode('</table>',$t1[1]);
+    if (count($t2)<2){
+        return false;
+    }
+    preg_match_all('|<tr>.*<\\/tr>|',$t2[0],$trs);
+    if ($trs){
         return $trs[0];
-      }
     }
     return false;
-  }
+}
 
-    public function returnArrayOfTopics($response){
+
+  public function returnArrayOfTopics($response){
       
     //remove the "selected" tag in the HTML:
     $response = str_replace(" SELECTED", "", $response);

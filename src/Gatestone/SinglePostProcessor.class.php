@@ -4,15 +4,10 @@ namespace Gatestone;
 
 class SinglePostProcessor{
 
-public function parseContent($postCUrlResponse = null){
-    //stubs for development
-    //On the production server, this will be an actual cUrl response. You can use this for development:
-    $postCUrlResponse = file_get_contents('/var/www/html/wp-content/plugins/gatestone/tests/unit/stub.europe-hijab.html');
-    //$postCUrlResponse = file_get_contents('/var/www/html/wp-content/plugins/gatestone/tests/unit/stub.islamist-terrorism-yemen.html');
-    
-    $expectedReturn = file_get_contents('/var/www/html/wp-content/plugins/gatestone/tests/unit/stub.content-only-europe-hijab.html');
-    
-    return $expectedReturn;
+public function parseContent($postCUrlResponse){
+    //your "result" will be the parsed content from the cUrl
+    $result = "";
+    return $result;
 }
 
 public function parseDateAndTime($postCUrlResponse = null){
