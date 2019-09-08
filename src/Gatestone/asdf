@@ -1,0 +1,1061 @@
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot; prefix=&quot;og: http://ogp.me/ns#&quot;&gt;
+&lt;head&gt;
+&lt;title&gt;New Threats To Free Speech&lt;/title&gt;
+
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+&lt;meta name=&quot;description&quot; content=&quot;New Threats To Free Speech&quot; /&gt;
+&lt;meta name=&quot;keywords&quot; content=&quot;New Threats To Free Speech&quot; /&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+&lt;meta name=&quot;robots&quot; content=&quot;noarchive&quot; /&gt;
+&lt;meta property=&quot;og:site_name&quot; content=&quot;Gatestone Institute&quot; /&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;New Threats To Free Speech&quot; /&gt;
+&lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
+&lt;meta property=&quot;og:locale&quot; content=&quot;en_US&quot; /&gt;
+&lt;meta property=&quot;article:publisher&quot; content=&quot;https://www.facebook.com/Gatestone.Institute&quot; /&gt;
+&lt;meta name=&quot;twitter:site&quot; content=&quot;@GatestoneInst&quot; /&gt;
+&lt;link rel=&quot;alternate&quot; type=&quot;application/rss+xml&quot; href=&quot;/rss.xml&quot; title=&quot;RSS feed&quot; /&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;//code.jquery.com/jquery-migrate-1.2.1.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;//code.jquery.com/ui/1.11.1/jquery-ui.js&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css&quot;&gt;
+
+&lt;link rel=&quot;manifest&quot; href=&quot;/OneSignalManifest.json&quot;&gt;
+  &lt;script src=&quot;https://cdn.onesignal.com/sdks/OneSignalSDK.js&quot; async&gt;&lt;/script&gt;
+  &lt;script&gt;
+    var OneSignal = OneSignal || [];
+    OneSignal.push([&quot;init&quot;, {
+      appId: &quot;e200f6b1-54aa-499c-a4cd-6fc70af0587a&quot;,
+      safari_web_id: &quot;web.onesignal.auto.32551e0e-3454-416e-9258-23f2fe99c3c8&quot;,
+      autoRegister: true,
+      notifyButton: {
+        enable: false
+        },
+      welcomeNotification: {
+        disable: true
+      }
+    }]);
+  &lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+function ClosePromo(){
+parent.$.fn.colorbox.close();
+}
+
+$(document).ready(function(){
+setTimeout(function(){
+$.colorbox({ width:'550px', minHeight:'300px', initialHeight:'300px', initialWidth:'508px', maxHeight:'95%', opacity:0.4, overlayClose:false, closeButton:false, scrolling:false, fixed:true, html:'&lt;style type=&quot;text/css&quot;&gt;  &lt;!--  .popup_wrapper, .popup_wrapper td, .popup_wrapper p, .popup_wrapper blockquote, .popup_wrapper li {  font-size: 14px !important;  font-family: Arial, Helvetica, sans-serif;  line-height: 1;  color: #000000 !important;  }    .sub_form_area {  width:100% !important;  }  .sub_form_area form {  width:100% !important;  margin:1.5em auto !important;  padding: 0;  font-family: Arial, Helvetica, sans-serif;  font-size: 1.0em;  line-height: 1;  }  .sub_form_area input[type=&quot;email&quot;] {  font-family: Arial, Helvetica, sans-serif;  font-size: 1.0em;  outline: none !important;  border: 1px solid #000;  color: #000;  background: #FFF;  padding: 10px !important;  margin:0.15em 0 !important;  display: inline-block;  width: 66%;  }  .sub_form_area input[type=&quot;submit&quot;] {  font-family: Arial, Helvetica, sans-serif;  font-size: 1.0em;  font-weight: 600;  outline: none !important;  border: 1px solid #015A85;  padding: 10px !important;  margin:0.15em 0 !important;  cursor: pointer;  background:#015A85;  color:#fff;  display: inline-block;  }    @media (max-width: 360px) {  .sub_form_area {  margin: 1em 0 2.5em !important;  }  .sub_form_area form {  width: auto;  }  .sub_form_area input[type=&quot;email&quot;] {  width: 100%;  }  .sub_form_area input[type=&quot;submit&quot;] {  width: 100%;  }  }  --&gt;  &lt;/style&gt;    &lt;div class=&quot;popup_wrapper&quot;&gt;    &lt;div class=&quot;toggle promo_close&quot; style=&quot;cursor:pointer; display:block; float:right; padding-right:5px;&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/close_24.png&quot; width=&quot;24&quot; height=&quot;24&quot; border=&quot;0&quot; alt=&quot;Close&quot; title=&quot;Close&quot; /&gt;&lt;/div&gt; &lt;div id=&quot;popup_main&quot; style=&quot;margin:12px 15px 8px 20px;&quot;&gt;  &lt;div id=&quot;sub_headline_area&quot; style=&quot;font-size:130%; margin:auto; padding:0 15px; color:#DA0026 !important; text-align:center;&quot;&gt;&lt;b&gt;Subscribe to Our &lt;span style=&quot;white-space:nowrap;&quot;&gt;Free Daily Newsletter&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;  &lt;div id=&quot;sub_pitch_area&quot; style=&quot;margin:10px 0 0 0; text-align:center; color:#000000 !important;&quot;&gt;&lt;b&gt;Don't miss any of our &lt;span style=&quot;white-space:nowrap;&quot;&gt;commentary and analysis!&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;    &lt;div id=&quot;promo_loading&quot; class=&quot;loading_img_wrapper&quot; style=&quot;display:none; margin:auto; text-align:center; margin-top:20px;&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/loading_42.gif&quot; width=&quot;42&quot; height=&quot;42&quot; /&gt;&lt;br /&gt;&lt;i&gt;Submitting...&lt;/i&gt;&lt;/div&gt;    &lt;div id=&quot;sub_form_area&quot; class=&quot;sub_form_area&quot; style=&quot;text-align:center;&quot;&gt;  &lt;form name=&quot;sub_form&quot; id=&quot;sub_form&quot; method=&quot;get&quot; action=&quot;https://gatestoneinstitute.us9.list-manage.com/subscribe/post-json?u=ae44aaf3f07dbffc928ba7cb5&amp;id=ef816ce96c&amp;c=?&quot;&gt;  &lt;input type=&quot;email&quot; id=&quot;email&quot; name=&quot;EMAIL&quot; value=&quot;&quot; placeholder=&quot;Email Address&quot; style=&quot;direction:ltr; max-width:100%;&quot; required /&gt;   &lt;input type=&quot;submit&quot; name=&quot;submit&quot; id=&quot;submit&quot; value=&quot;Subscribe&quot; style=&quot;background:#015A85; color:white; !important&quot; /&gt; &lt;/form&gt;  &lt;/div&gt; &lt;!-- END sub_form_area --&gt;    &lt;div id=&quot;promo_form_errors&quot; style=&quot;display:none; text-align:center; margin:auto; padding:2px 0; color:red !important; font-weight:bold;&quot;&gt;&lt;/div&gt;    &lt;/div&gt; &lt;!-- END popup_main --&gt;    &lt;span id=&quot;promo_submitted_close&quot; style=&quot;display:none; text-align:center; margin:auto; padding-top:3px; padding-bottom:5px; font-weight:bold; color:blue !important; text-decoration:underline; cursor:pointer;&quot;&gt;Return to Article&lt;/span&gt;    &lt;div id=&quot;sp_rejected&quot; class=&quot;popup_close_buttons promo_close&quot; style=&quot;text-align:center; margin:auto; margin-top:20px; font-size:90%; color:red; text-decoration:underline; cursor:pointer; position:absolute; bottom:5px; width: 100%; padding-bottom:5px;&quot;&gt;&lt;i&gt;Not interested&lt;/i&gt;&lt;/div&gt;    &lt;/div&gt;  ' })
+}, 20000);
+});
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+$(document).ready(function(){
+
+function CallAjaxPitch() {
+$.ajax({
+type: 'POST',
+url: 'https://www.gatestoneinstitute.org/_header_popup.php',
+data: 'ajax=TRUE&amp;sub_promo_freq=7&amp;status=sp_pitched',
+dataType: 'html',
+processData: false,
+cache: false
+});
+}
+
+setTimeout(CallAjaxPitch, 20000);
+
+$(document).on('click', '#promo_submitted_close', function(event) {
+ClosePromo();
+return false;
+});
+
+
+$(document).on('click', '.promo_close', function(event) {
+
+$.ajax({
+type: 'POST',
+url: 'https://www.gatestoneinstitute.org/_header_popup.php',
+data: 'ajax=TRUE&amp;status=' + event.currentTarget.id,
+dataType: 'html',
+processData: false,
+cache: false,
+error:function(xhr, status, errorThrown) { alert(errorThrown+'n'+status+'n'+xhr.statusText); }
+});
+
+ClosePromo();
+});
+
+
+$(document).on('submit', '#sub_form', function(event) {
+
+var email = $('#email').val();
+email = $.trim(email)
+
+$('#promo_form_errors').hide();
+$('#email').css('border', '1px solid grat');
+
+$('#sub_form_area').hide();
+$('#sub_pitch_area').hide();
+$('#promo_loading').show();
+
+var dataString = $('#sub_form').serialize();
+dataString += '&amp;u=ae44aaf3f07dbffc928ba7cb5&amp;id=ef816ce96c&amp;c=?';
+
+// alert(dataString);
+
+$.ajax({
+type: 'get',
+url: 'https://gatestoneinstitute.us9.list-manage.com/subscribe/post-json',
+data: dataString,
+processData: false,
+cache: false,
+dataType: 'json',
+error:function(xhr, status, errorThrown) { alert(errorThrown+'n'+status+'n'+xhr.statusText); },
+success: function(response) {
+
+var response_msg = response.msg;
+response_msg = response_msg.replace('&lt;a ', '&lt;a target=_blank ');
+if (response.result != 'success') {
+$('#popup_main').append('&lt;p&gt;' + response_msg + '&lt;/p&gt;');
+} else {
+$('#popup_main').append('&lt;p&gt;' + response_msg + '&lt;/p&gt;');
+}
+},
+complete: function() {
+$('#promo_loading').hide();
+$('.popup_close_buttons').fadeOut();
+$('#promo_submitted_close').css('display', 'block');
+$('#promo_submitted_close').fadeIn();
+
+$.colorbox.resize();
+}
+
+});
+
+
+$.ajax({
+type: 'POST',
+url: 'https://www.gatestoneinstitute.org/_header_popup.php',
+data: 'ajax=TRUE&amp;status=sp_confirmed',
+dataType: 'html',
+processData: false,
+cache: false,
+error:function(xhr, status, errorThrown) { alert(errorThrown+'n'+status+'n'+xhr.statusText); }
+});
+
+return false;
+
+});
+
+}); // end $(document).ready
+&lt;/script&gt;
+
+&lt;link type=&quot;text/css&quot; media=&quot;screen&quot; rel=&quot;stylesheet&quot; href=&quot;https://www.gatestoneinstitute.org/includes/colorbox/example1/colorbox.css&quot; /&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://www.gatestoneinstitute.org/includes/colorbox/jquery.colorbox-min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;if (location.hash === '#print') { window.print(); }&lt;/script&gt;
+
+&lt;link type=&quot;text/css&quot; media=&quot;screen&quot; rel=&quot;stylesheet&quot; href=&quot;https://www.gatestoneinstitute.org/includes/doctextsizer.css&quot; /&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://www.gatestoneinstitute.org/includes/doctextsizer.js&quot;&gt;&lt;/script&gt;
+
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.gatestoneinstitute.org/style.css&quot; type=&quot;text/css&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+&lt;!--
+@-webkit-keyframes bugfix { from {padding:0;} to {padding:0;} } /* needed for checkbox hack */
+
+.nav {
+  position: relative;
+  -webkit-animation: bugfix infinite 1s;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  color: #F2F2F2;
+  background: #727177;
+  border-bottom: 3px solid #da521e;
+}
+.nav ul {
+  display: none;
+  width: 100%;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.nav ul li a {
+  display: block;
+  padding: 9px 10px;
+  background: #727177;
+  color: #F2F2F2;
+  text-decoration: none;
+  border-right: 1px solid #b9b2b9;
+  white-space:nowrap;
+}
+.nav ul li a:hover {
+  background: #da521e;
+}
+.nav ul li:last-of-type a {
+  border-right: 0px;
+}
+.nav ul li ul li a {
+  padding-left: 1.5em;
+}
+.nav ul li ul li ul li a {
+  padding-left: 3.125em;
+}
+.nav input.trigger {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.nav input.trigger:checked ~ ul, .nav input.trigger:checked ~ ul li ul {
+  display: block !important;
+}
+@media (min-width: 900px) {
+  .nav input.trigger:checked ~ ul, .nav input.trigger:checked ~ ul li ul {
+    /* older flexbox */
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    /* newer flexbox */
+    display: flex;
+    flex-direction: row;
+  }
+}
+.nav label {
+  position: relative;
+  display: block;
+  min-height: 2em;
+  padding: .45em;
+  margin: 0;
+  cursor: pointer;
+  line-height: 2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.nav label:after {
+  position: absolute;
+  right: 1em;
+  top: .2em;
+  content: &quot;2261&quot;;
+  font-stretch: ultra-expanded;
+  font-size: 1.8em;
+  color: white;
+}
+@media (min-width: 750px) {
+  .nav ul {
+    /* older flexbox */
+    display: -ms-flexbox;
+    flex-direction: -ms-row;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    /* newer flexbox */
+    display: flex;
+    flex-direction: row;
+  }
+  .nav ul li {
+    position: relative;
+    text-align: center;
+    /* older flexbox */
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    /* newer flexbox */
+    flex: 1;
+  }
+  .nav ul li ul {
+    display: none !important;
+    position: absolute;
+    top: 3.0625em;
+    left: 0;
+    display: block;
+    width: 12.5em;
+    z-index: 200;
+  }
+  .nav ul li ul li {
+    text-align: left;
+  }
+  .nav ul li ul li ul {
+    z-index: 300;
+    top: 0px;
+    left: 12.4em;
+  }
+  .nav ul li ul li ul li a {
+    padding-left: 30px !important;
+  }
+  .nav ul li:hover &gt; ul {
+    display: block !important;
+  }
+  .nav label {
+    display: none;
+  }
+}
+
+.video-wrapper {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 */
+padding-top: 25px;
+height: 0;
+}
+.video-wrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+--&gt;
+&lt;/style&gt;
+
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://www.gatestoneinstitute.org/style_print.css&quot; type=&quot;text/css&quot; /&gt;
+&lt;link rel=&quot;shortcut icon&quot; href=&quot;https://www.gatestoneinstitute.org/favicon.ico&quot; type=&quot;image/x-icon&quot; /&gt;
+&lt;!-- Facebook Pixel Code --&gt;
+&lt;script&gt;
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1204171852946298');
+fbq('track', &quot;PageView&quot;);
+&lt;/script&gt;
+&lt;noscript&gt;&lt;img height=&quot;1&quot; width=&quot;1&quot; style=&quot;display:none&quot;
+src=&quot;https://www.facebook.com/tr?id=1204171852946298&amp;ev=PageView&amp;noscript=1&quot;
+/&gt;&lt;/noscript&gt;
+&lt;!-- End Facebook Pixel Code --&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://www.gatestoneinstitute.org/includes/fancybox/source/jquery.fancybox.js&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://www.gatestoneinstitute.org/includes/fancybox/source/jquery.fancybox.css&quot; media=&quot;screen&quot; /&gt;
+
+&lt;link rel=&quot;canonical&quot; href=&quot;https://www.gatestoneinstitute.org/23/new-threats-to-free-speech&quot; /&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;http://www.gatestoneinstitute.org/23/new-threats-to-free-speech&quot; /&gt;
+&lt;meta property=&quot;article:published_time&quot; content=&quot;2008-10-27T06:30:00&quot; /&gt;
+&lt;meta property=&quot;article:modified_time&quot; content=&quot;2008-10-27T06:30:00&quot; /&gt;
+&lt;meta property=&quot;og:updated_time&quot; content=&quot;2008-10-27T06:30:00&quot; /&gt;
+
+&lt;meta name=&quot;twitter:card&quot; content=&quot;summary_large_image&quot; /&gt;
+&lt;meta name=&quot;twitter:title&quot; content=&quot;New Threats To Free Speech&quot; /&gt;
+&lt;meta name=&quot;twitter:site&quot; content=&quot;@GatestoneInst&quot; /&gt;
+&lt;meta name=&quot;author&quot; content=&quot;Geert Wilders&quot;&gt;
+&lt;meta http-equiv=&quot;content-language&quot; content=&quot;en&quot; /&gt;
+&lt;meta name=&quot;language&quot; content=&quot;en&quot; /&gt;
+&lt;meta itemprop=&quot;inLanguage&quot; content=&quot;en&quot; /&gt;
+&lt;meta http-equiv=&quot;cache-control&quot; content=&quot;no-cache&quot; /&gt;
+&lt;meta http-equiv=&quot;pragma&quot; content=&quot;no-cache&quot; /&gt;
+
+&lt;script&gt;
+$(document).ready(function() {
+$('.itemprop_articlebody a[href]').attr('target', '_blank');
+});
+&lt;/script&gt;
+
+&lt;style type=&quot;text/css&quot; media=&quot;print&quot;&gt;
+&lt;!--
+body { background:#FFFFFF; }
+
+.table_main {
+width:100%;
+border:none;
+}
+#content_cell {
+width: 100%;
+padding:0;
+background:none;
+}
+--&gt;
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;div id=&quot;body_wrapper&quot; style=&quot;background:#FFFFFF; margin:auto; margin-top:0; padding:0; max-width:1020px;&quot;&gt;
+&lt;header class=&quot;no_print nocontent&quot; style=&quot;margin:auto; margin-top:0; max-width:1020px;&quot;&gt;
+
+&lt;div style=&quot;margin:auto; vertical-align:middle; text-align:center;&quot;&gt;
+&lt;a href=&quot;https://www.gatestoneinstitute.org&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/gatestone-logo-1000.gif&quot; border=&quot;0&quot; alt=&quot;Gatestone Institute&quot; title=&quot;Gatestone Institute&quot; class=&quot;force_print&quot; id=&quot;logo_top&quot; valign=&quot;middle&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&quot;text-align:right; margin:0px 20px 0 20px;&quot;&gt;
+
+&lt;div class=&quot;desktop_only&quot; style=&quot;text-align:right; padding-top:10px; width:100%;&quot;&gt;
+&lt;div style=&quot;text-align:right;&quot;&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+&lt;!--
+.lang_links td {
+padding: 0px 2px 0px 2px;
+line-height: initial;
+text-align: center;
+font-family: Arial, sans-serif;
+font-size:9px;
+}
+
+.lang_links tr td:last-child {
+padding-right: 0px;
+}
+--&gt;
+&lt;/style&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; class=&quot;lang_links&quot; style=&quot;margin:11px 0 5px 0;&quot;&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://ar.gatestoneinstitute.org&quot; title=&quot;&amp;#x627;&amp;#x644;&amp;#x639;&amp;#x631;&amp;#x628;&amp;#x64A;&amp;#x629;&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/ar.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;&amp;#x627;&amp;#x644;&amp;#x639;&amp;#x631;&amp;#x628;&amp;#x64A;&amp;#x629;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://cs.gatestoneinstitute.org&quot; title=&quot;&amp;#268;e&amp;scaron;tina&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/cs.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;&amp;#268;e&amp;scaron;tina&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://da.gatestoneinstitute.org&quot; title=&quot;Dansk&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/da.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;Dansk&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://de.gatestoneinstitute.org&quot; title=&quot;Deutsch&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/de.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;Deutsch&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://el.gatestoneinstitute.org&quot; title=&quot;&amp;#x395;&amp;#x3BB;&amp;#x3BB;&amp;#x3B7;&amp;#x3BD;&amp;#x3B9;&amp;#x3BA;&amp;#x3AC;&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/el.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;&amp;#x395;&amp;#x3BB;&amp;#x3BB;&amp;#x3B7;&amp;#x3BD;&amp;#x3B9;&amp;#x3BA;&amp;#x3AC;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org&quot; title=&quot;English&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/en.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;English&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://es.gatestoneinstitute.org&quot; title=&quot;Espa&amp;#241;ol&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/es.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;Espa&amp;#241;ol&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://fr.gatestoneinstitute.org&quot; title=&quot;Fran&amp;ccedil;ais&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/fr.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;Fran&amp;ccedil;ais&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://he.gatestoneinstitute.org&quot; title=&quot;עברית&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/he.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;עברית&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://it.gatestoneinstitute.org&quot; title=&quot;Italiano&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/it.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;Italiano&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://nl.gatestoneinstitute.org&quot; title=&quot;Nederlands&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/nl.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;Nederlands&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://pl.gatestoneinstitute.org&quot; title=&quot;Polski&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/pl.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;Polski&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://pt.gatestoneinstitute.org&quot; title=&quot;Portugu&amp;#234;s&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/pt.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;Portugu&amp;#234;s&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://ru.gatestoneinstitute.org&quot; title=&quot;Pycc&amp;#x138;&amp;#x438;&amp;#x439;&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/ru.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;Pycc&amp;#x138;&amp;#x438;&amp;#x439;&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://sk.gatestoneinstitute.org&quot; title=&quot;Sloven&amp;#269;ina&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/sk.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;Sloven&amp;#269;ina&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://sv.gatestoneinstitute.org&quot; title=&quot;Svenska&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/flags/sv.png&quot; width=&quot;32&quot; height=&quot;20&quot; border=&quot;0&quot; alt=&quot;Svenska&quot; /&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://ar.gatestoneinstitute.org&quot; title=&quot;&amp;#x627;&amp;#x644;&amp;#x639;&amp;#x631;&amp;#x628;&amp;#x64A;&amp;#x629;&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;&amp;#x627;&amp;#x644;&amp;#x639;&amp;#x631;&amp;#x628;&amp;#x64A;&amp;#x629;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://cs.gatestoneinstitute.org&quot; title=&quot;&amp;#268;e&amp;scaron;tina&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;&amp;#268;e&amp;scaron;tina&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://da.gatestoneinstitute.org&quot; title=&quot;Dansk&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;Dansk&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://de.gatestoneinstitute.org&quot; title=&quot;Deutsch&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;Deutsch&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://el.gatestoneinstitute.org&quot; title=&quot;&amp;#x395;&amp;#x3BB;&amp;#x3BB;&amp;#x3B7;&amp;#x3BD;&amp;#x3B9;&amp;#x3BA;&amp;#x3AC;&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;&amp;#x395;&amp;#x3BB;&amp;#x3BB;&amp;#x3B7;&amp;#x3BD;&amp;#x3B9;&amp;#x3BA;&amp;#x3AC;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org&quot; title=&quot;English&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;English&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://es.gatestoneinstitute.org&quot; title=&quot;Espa&amp;#241;ol&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;Espa&amp;#241;ol&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://fr.gatestoneinstitute.org&quot; title=&quot;Fran&amp;ccedil;ais&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;Fran&amp;ccedil;ais&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://he.gatestoneinstitute.org&quot; title=&quot;עברית&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;עברית&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://it.gatestoneinstitute.org&quot; title=&quot;Italiano&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;Italiano&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://nl.gatestoneinstitute.org&quot; title=&quot;Nederlands&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;Nederlands&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://pl.gatestoneinstitute.org&quot; title=&quot;Polski&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;Polski&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://pt.gatestoneinstitute.org&quot; title=&quot;Portugu&amp;#234;s&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;Portugu&amp;#234;s&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://ru.gatestoneinstitute.org&quot; title=&quot;Pycc&amp;#x138;&amp;#x438;&amp;#x439;&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;Pycc&amp;#x138;&amp;#x438;&amp;#x439;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://sk.gatestoneinstitute.org&quot; title=&quot;Sloven&amp;#269;ina&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;Sloven&amp;#269;ina&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://sv.gatestoneinstitute.org&quot; title=&quot;Svenska&quot; style=&quot;color:black; text-decoration:none;&quot;&gt;Svenska&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;/div&gt;
+&lt;/div&gt; &lt;!-- END no_mobile --&gt;
+
+&lt;div class=&quot;mobile_center_middle&quot;&gt;
+&lt;div class=&quot;follow_tools mobile_center_middle&quot; style=&quot;border:none;&quot;&gt;
+&lt;span style=&quot;white-space:nowrap; margin:auto; vertical-align:middle;&quot;&gt;
+
+&lt;a href=&quot;https://www.facebook.com/Gatestone.Institute&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/round_facebook_128.png&quot; border=&quot;0&quot; alt=&quot;Facebook&quot; title=&quot;Facebook&quot; /&gt;&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://twitter.com/GatestoneInst&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/round_twitter_128.png&quot; border=&quot;0&quot; alt=&quot;Twitter&quot; title=&quot;Twitter&quot; /&gt;&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://plus.google.com/+GatestoneInst&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/round_google_128.png&quot; border=&quot;0&quot; alt=&quot;Google+&quot; title=&quot;Google+&quot; /&gt;&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://www.linkedin.com/company/gatestone-institute&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/round_linkedin_128.png&quot; border=&quot;0&quot; alt=&quot;LinkedIn&quot; title=&quot;LinkedIn&quot; /&gt;&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;https://www.youtube.com/c/GatestoneInst&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/round_youtube_128.png&quot; border=&quot;0&quot; alt=&quot;YouTube&quot; title=&quot;YouTube&quot; /&gt;&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;a href=&quot;/rss.xml&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/round_rss_128.png&quot; border=&quot;0&quot; alt=&quot;RSS&quot; title=&quot;RSS&quot; /&gt;&lt;/a&gt;
+
+&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;search_form&quot; style=&quot;margin-bottom:15px; white-space:nowrap; vertical-align:middle;&quot;&gt;
+&lt;form method=&quot;get&quot; action=&quot;https://www.gatestoneinstitute.org/search.php&quot; style=&quot;margin:0; padding:0;&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;cx&quot; value=&quot;014255815713646959106:fcvl99skesi&quot; /&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;cof&quot; value=&quot;FORID:9&quot; /&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;ie&quot; value=&quot;UTF-8&quot; /&gt;
+&lt;input name=&quot;q&quot; id=&quot;search&quot; type=&quot;text&quot; size=&quot;25&quot; placeholder=&quot;Search&quot; style=&quot;border:1px solid black; padding:3px 8px;&quot; /&gt;
+&lt;input type=&quot;submit&quot; name=&quot;sa&quot; value=&quot;Search&quot; style=&quot;padding:2px 8px; background:#294266; color:white; font-weight:bold; border:1px solid #294266; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;&quot; /&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div style=&quot;clear:both;&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+$('.nav_search_link').live('click', function(){
+$('#mobile_search').append($('#search_form')).html();
+$('#mobile_search').show();
+$('#search_form').slideDown();
+return false;
+});
+});
+&lt;/script&gt;
+
+&lt;nav role=&quot;navigation&quot; class=&quot;nav nocontent no_print&quot;&gt;
+&lt;input class=&quot;trigger&quot; type=&quot;checkbox&quot; id=&quot;mainNavButton&quot;&gt;
+&lt;label for=&quot;mainNavButton&quot; onclick&gt;Navigation Menu&lt;/label&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/about/&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/events.php&quot;&gt;Events&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/experts/&quot;&gt;Experts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/authors/&quot;&gt;Authors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/contribute.php&quot;&gt;Donate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/archives/&quot;&gt;Archives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/list_subscribe.php&quot;&gt;Mailing List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/in-the-media/&quot;&gt;Media Citations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/about/contact/&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;nav_search&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;nav_search_link&quot;&gt;Search&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;div id=&quot;mobile_search&quot; style=&quot;margin-top:15px; width:100%; text-align:center;&quot;&gt;&lt;/div&gt;
+&lt;/header&gt;
+
+&lt;table class=&quot;table_main&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; align=&quot;center&quot; style=&quot;clear:both;&quot;&gt;
+&lt;tr&gt;
+&lt;td id=&quot;content_cell&quot;&gt;
+&lt;div id=&quot;content_cell_padding&quot;&gt;
+
+&lt;div class=&quot;article&quot;&gt;
+
+&lt;div itemscope itemtype=&quot;http://schema.org/Article&quot;&gt;
+&lt;div id=&quot;print_content&quot;&gt;&lt;h1 itemprop=&quot;name headline&quot; style=&quot;padding-top:0; padding-bottom:0; margin-top:0; margin-bottom:5px;&quot;&gt;New Threats To Free Speech&lt;/h1&gt;
+
+&lt;div class=&quot;byline&quot;&gt;
+
+&lt;p class=&quot;sans-serif&quot; style=&quot;margin:10px 0 0 0;&quot;&gt;&lt;b&gt;
+by &lt;a href=&quot;https://www.gatestoneinstitute.org/author/Geert+Wilders&quot;&gt;&lt;span itemprop=&quot;author&quot;&gt;Geert Wilders&lt;/span&gt;&lt;/a&gt;&lt;br&gt;
+&lt;time class=&quot;nocontent&quot; datetime=&quot;2008-10-27T06:30:00&quot; itemprop=&quot;datePublished&quot;&gt;October 27, 2008 at 6:30 am&lt;/time&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=&quot;nocontent no_mobile&quot; style=&quot;margin:0 0 10px 0;&quot;&gt;&lt;b&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/23/new-threats-to-free-speech&quot;&gt;https://www.gatestoneinstitute.org/23/new-threats-to-free-speech&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!-- PLAINTEXT STRIP BEGIN --&gt;
+&lt;table id=&quot;links&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; class=&quot;no_print nocontent&quot; style=&quot;border-bottom:1px solid gray; margin:10px 0 5px 0;&quot;&gt;
+&lt;tr&gt;&lt;td style=&quot;min-width:20px; white-space:nowrap; vertical-align:top; padding:3px 5px 0 5px; font-family:arial; font-size:12px; text-decoration:none; color:#525252; white-space:nowrap !important;&quot;&gt;&lt;a href=&quot;mailto:?subject=New%20Threats%20To%20Free%20Speech&amp;body=https%3A%2F%2Fwww.gatestoneinstitute.org%2F23%2Fnew-threats-to-free-speech&quot; title=&quot;Send&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/item_send_24.png&quot; width=&quot;20&quot; border=&quot;0&quot; class=&quot;no_css_sizing&quot; style=&quot;margin:0px 2px 2px 0px;&quot; alt=&quot;Send&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;style type=&quot;text/css&quot;&gt;&lt;!--
+@media only screen and (min-width: 600px) {
+.whatsapp { display:none; }
+}
+--&gt;&lt;/style&gt;
+&lt;td class=&quot;whatsapp&quot; style=&quot;min-width:22px; white-space:nowrap; vertical-align:top; padding:3px 5px 0 5px; font-family:arial; font-size:12px; text-decoration:none; color:#525252;&quot;&gt;&lt;a href=&quot;whatsapp://send?text=New+Threats+To+Free+Speech+%3A%3A+https%3A%2F%2Fwww.gatestoneinstitute.org%2F23%2Fnew-threats-to-free-speech&quot; data-action=&quot;share/whatsapp/share&quot; title=&quot;WhatsApp&quot;&gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/item_whatsapp_24.png&quot; width=&quot;22&quot; border=&quot;0&quot; class=&quot;no_css_sizing&quot; style=&quot;margin:0px 2px 2px 0px;&quot; alt=&quot;WhatsApp&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;style type=&quot;text/css&quot;&gt;&lt;!--
+@media only screen and (max-width: 700px) {
+.item_print { display:none; }
+}
+--&gt;&lt;/style&gt;
+&lt;td style=&quot;white-space:nowrap; vertical-align:bottom; padding:3px 5px 0 5px; font-family:arial; font-size:12px; text-decoration:none; color:#525252;&quot;&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+var addthis_config = {
+services_exclude: 'print',
+ui_language: 'en'
+}
+&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;//connect.facebook.net/en_US/all.js#xfbml=1&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52f7af5809191749&quot;&gt;&lt;/script&gt;
+
+&lt;div class=&quot;addthis_toolbox addthis_default_style no_print&quot; style=&quot;text-decoration:none; white-space:nowrap !important; vertical-align:middle !important; margin-bottom:3px;&quot; addthis:url=&quot;http://www.gatestoneinstitute.org/23/new-threats-to-free-speech&quot; addthis:title=&quot;New Threats To Free Speech&quot;&gt;
+&lt;a class=&quot;addthis_button_print item_print&quot; title=&quot;Print&quot; &gt;&lt;img src=&quot;https://www.gatestoneinstitute.org/images/icons/item_print_22.png&quot; width=&quot;20&quot; height=&quot;20&quot; border=&quot;0&quot; class=&quot;no_css_sizing&quot; style=&quot;margin:0px 15px 0px 0px;&quot; alt=&quot;Print&quot; /&gt;&lt;/a&gt;&lt;a class=&quot;addthis_button_facebook_share&quot; fb:share:layout=&quot;button_count&quot;&gt;&lt;/a&gt;
+&lt;a class=&quot;addthis_button_tweet&quot;&gt;&lt;/a&gt;
+&lt;a class=&quot;addthis_counter addthis_pill_style&quot;&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;/td&gt;
+
+&lt;/tr&gt;&lt;/table&gt;
+&lt;!-- PLAINTEXT STRIP END --&gt;
+
+&lt;div id=&quot;print_content_3&quot;&gt;&lt;div itemprop=&quot;articleBody&quot; class=&quot;article_body itemprop_articlebody&quot;&gt;
+&lt;p&gt;Dear friends,&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Thank you very much for inviting me. In the past 3 weeks I crossed the Atlantic 3 times. I made more than 11 thousand flying miles. Perhaps I've put a new meaning on the words 'Flying Dutchman'...&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Dear friends, all is not well in the old world. There is a tremendous danger looming, and it is very difficult to be optimistic. We might be in the final stages of the Islamization of Europe. This not only is a clear and present danger to the future of Europe itself, it is a threat to the sheer survival of the West and Western notions of democracy and freedom.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+My short lecture consists of 3 parts.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+First I will describe the current situation in Europe. Then, I will say a few things about my short movie Fitna, and third I will talk about freedom of speech and Jordan's, and others, attempt to prosecute me.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+&lt;strong&gt;Europe&lt;/strong&gt;&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Within a few decades the street scenes in Europe have drastically changed. Europe is in the process of being Islamized. All throughout Europe this new reality is rising. Head scarves and burkahs have become part of the daily experience in Europe. There are entire neighbourhoods where very few indigenous people reside. With mosques on many street corner. These are Muslim ghettos controlled by religious fanatics, who try to form a state within the state. These are Muslim neighbourhoods, and they are mushrooming in every city across Europe. Â &lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Many European cities are already one-quarter Muslim: Just take Amsterdam or Marseille. In many cities the majority of the under-18 population is Muslim. Paris is now surrounded by a ring of Muslim neighbourhoods. Mohammed is the most popular name among boys in many European cities. In once-tolerant Amsterdam gays are frequently beaten up almost exclusively by Muslims. In England sharia courts are now officially part of the legal system. Jews are fleeing France in record numbers, on the run for the worst wave of anti-Semitism since World War II, with Jewish boys being assaulted on the street and Jewish graves desecrated.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Because of the mass-immigration and Islamization there are huge problems in regard toÂ  European education too. A few examples: In some elementary schools in Amsterdam the farm can no longer be mentioned, because that would also mean mentioning the pig, and that would be an insult to Muslims. Many schools across Europe only serve halal food to all pupils, Muslims and non-Muslims. In France school teachers are advised to avoid authors deemed offensive to Muslims, including Voltaire, the same is increasingly true of Darwin. The history of the Holocaust can in many cases no longer be taught because of Muslim sensitivity.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+A total of 54 million Muslims now live in Europe. San Diego University recently calculated that a staggering 25 percent of the population in Europe will be Muslim just 12 years from now. Bernard Lewis has predicted a Muslim majority by the end of this century.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Now these are just numbers. And the numbers would not be threatening if the Muslim-immigrants had a strong desire to assimilate and accept freedom with open arms. But there are few signs of that.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+On the contrary, the Islamization of Europe affects Western achievements like the equality of men and women. Take the rise of honour killings, polygamy, attempts to introduce sharia wills and testaments, the refusal by radical Muslims to shake hands with women, Muslim husbands who walk 3 steps ahead their wives. Â &lt;br /&gt;
+
+Â &lt;br /&gt;
+
+But perhaps our leaders are the worst of all. The European elites are willing to give in. To give up. In my own country we have gone from calls by a cabinet member to turn Muslim holidays into official state holidays, to statements by another cabinet member that Islam is part of Dutch culture, to an affirmation by the former Attorney General that he is willing to accept sharia law in the Netherlands if there is a Muslim majority. We have cabinet members with passports from Morocco and Turkey.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Almost all politicians shy away from taking a stand against the Islamization of our culture. They believe in the equality of all cultures. But do you really think less American flags will be burned in the Islamic world if Barack Hussein Obama wins the presidential elections? Do you really think political correctness is helping us?&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+My solution for the problems associated with Islamization and mass immigration is twofold. First, immigration from Islamic countries must be stopped. Whereby I note that, for example, a gay Muslim from Iran who is prosecuted must, of course, be granted asylum. Secondly, I advocate support for all forms of voluntary repatriation to the countries of origin. I am convinced that only these two clear and honest measures will counteract the Islamization of Europe.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+&lt;strong&gt;Fitna&lt;/strong&gt;&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+I felt I had the moral duty to educate about Islam and the Islamization of Europe. The duty to make clear that the Qur'an stands at the heart of what some people call terrorism but is in reality jihad. I wanted to show that the problems of Islam are at the core of Islam, and do not belong to its fringes. I have warned against the dangers of the Qur'an and Islam in numerous interviews, opinion articles, speeches and of course parliamentary debates, but a single picture often says more than a thousand words. That is why I made Fitna.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Fitna is a documentary which shows what is being done in the name of Islam. Without putting all Muslims into the same category, I hope I have succeeded in showing that the Qur'an is not some dusty old book, but that it is used today as a source of inspiration for, and justification of, hatred, violence and terrorism in the world, Europe and America.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Now, from the day the plan for my short movie was made public, it caused quite a stir, in the Netherlands and throughout Europe. First, there was a political storm, with government leaders across the continent in sheer panic. The Netherlands was put under a heightened terror alert, because of possible attacks or a revolt by our Muslim population. The Dutch branch of the Islamic organization Hizb ut-Tharir declared that the Netherlands was due for an attack. Internationally, there was a series of incidents. The Taliban threatened to organize additional attacks against Dutch troops in Afghanistan, and a website linked to Al Qaeda published the message that I ought to be killed, while various muftis in the Middle East stated that I would be responsible for all the bloodshed after the screening of the movie.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+In Afghanistan and Pakistan the Dutch flag was burned on several occasions. Dolls representing me were also burned. The Indonesian President announced that I will never be admitted into Indonesia again, while the UN Secretary General and the European Union issued statements in the same vein as those by the Dutch government. I could go on and on. It was an absolute disgrace, a sell out. What were they afraid of, as I was just exercising my right of free speech and repeating facts, stating what is going on the ground?&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+&lt;strong&gt;Jordan and freedom of speech&lt;/strong&gt;&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+A plethora of legal troubles also followed, and have not ended yet. Currently the state of Jordan is litigating against me. Jordan attempts to prosecute me with blasphemy, demeaning Islam and slandering the prophet Muhammad in violation of the Jordanian Penal Code, even though the alleged violations did not occur in Jordan.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Jordan is a non-democratic country, with no independent or impartial judicial system, with no strong developed civil society. According to a study of Human Rights Watch, published last week, even torture is a routine and widespread practice in Jordan. Demonstrations are not seldom prohibited. Honour killing offenders only get low punishments, or no punishment at all.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Jordan's attempt to prosecute me is an infringement of the sovereignty of my country. It is an infringement of freedom of speech in the Netherlands, Europe and the West as a whole. Jordan's attempt is a hostile act towards liberty itself.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+The Jordan attempt to prosecute me is not only affecting me, it opens the door wide for other totalitarian regimes to blackmail other politicians or opinion makers in the free world.&lt;br /&gt;
+
+We cannot accept that a medieval country lays down the law to the free West. And in general we cannot accept the intolerant, resentful responses from radical Muslims in regard to criticism of Islam; whether is it is Salman Rushdie's Satanic Verses, or the movie Submission by Ayaan Hirsi Ali and Theo van Gogh, or the Pope who quotes a Byzantine emperor, or the cartoons of Danish cartoonist Kurt Westergaard, against who Jordan is litigating too, or indeed my movie Fitna.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Freedom of speech is the most important of all civil rights. We are obliged to defend our freedom of speech. We are obliged to preserve the heritage of the British Magna Charta and the French Declaration of the Rights of Man. We have to defend the American Bill of Rights, and the Universal Declaration of Human Rights. We have to defend our Western constitutions, for freedom of speech is the keystone of our modern, free societies.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Not only countries like Jordan are a threat to freedom of speech. Freedom op speech is also under fire in Europe itself. Incidents related to Fitna prove it. I give you a few examples. A Dutch Islamic organization went to court, trying to prevent Fitna for being shown. The Dutch Secretary of State called on me to abandon my movie project. The Attorney General let it be known that post hoc criminal proceedings could be initiated if the movie was shown, and perhaps the Dutch Public Prosecutor will prosecute me. The Dutch government investigated the possibility of having Fitna banned in advance. After Fitna the Attorney General announced more stringent measures against blasphemy, which was put into practice by arresting a Dutch cartoonist in a raid by no fewer than 10 policemen.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+And the most radical imam of the Netherlands, who said the most terrible things related to Ayaan Hirsi Ali and Theo van Gogh, perhaps will summon me. Isn't that ironic? That someone who hates freedom now wants to misuse the constitutional state against a chosen member of parliament who is defending the free West?&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+I am often asked how I deal with all the criticism and law suits. My answer is: I am not complaining about these things because I have a mission. I will go on. I will continue struggle for freedom and democracy.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Allow me to give you another example of the threat to freedom of speech in Europe. It is about the Council of Europe. It's European Commission against Racism and Intolerance (ECRI) recently mixed up racism on the one hand and criticism of Islam on the other hand when it advised that political parties and media should, because of Muslim sensitivity, be more responsible in regard to their freedom of speech. In other words, according to the commission, politicians and media should censor their selves when it comes to Islam. This commission is a threat to freedom of speech in Europe.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Neither Europe, nor he UN, once the creator of the Universal Declaration of Human Rights, stands up for freedom of speech. On the contrary. The UN passed a resolution on 'Combating defamation of religions', which de facto intends to outlaw criticism against Islam. The evil genius behind this resolution is the Organisation of the Islamic Conference.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+I propose the following: The OIC should no longer be permitted to have a permanent delegation to the United Nations and OIC-countries should no longer be able to become a member of the UN-Human Rights Council.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Saudi-Arabia, for example, is one of the Human Rights Council members, a country which, according to this week's report of Amnesty International, is responsible for at least 158 beheadings last year. Don't you think Saudi-Arabia's membership is a disgrace?&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Dear friends, the free West should not accept the give away of freedom in general and freedom of speech in particular. The international community should stand up. The West should unconditionally defend freedom of speech, and should never give in to Islamic and politically correct pressure. The West should repeal their hate speech laws which enables radical Muslims to silence speech critical to Islam. The Western main stream media should stop ignoring the Islamic threat to free speech.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+That is why I propose to introduce a independent international Freedom of Speech Committee. A Committee which annual presents the prestigious Freedom of Speech Award, a kind of Nobel Freedom Prize. A Committee which gives monetary incentive to those brave writers, filmmakers, publishers and others who disseminate material of public importance.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Dear friends, liberty is the most precious of gifts. My generation never had to fight for this freedom, it was offered to us on a silver platter, by people fought for it with their lives. All throughout Europe American cemeteries remind us of the young boys who never made it home and whose memory we cherish. My generation does not own this freedom, we are merely its custodians.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+We can only hand over this hard won liberty to Europe's children in the same state in which it was offered to us. We cannot strike a deal with mullahs and imams. Future generations would never forgive us. We cannot squander our liberties. We simply do not have the right tot do so.&lt;br /&gt;
+
+Â &lt;br /&gt;
+
+In that spirit, let me end by giving you my favourite quote from George Orwell, &quot;If liberty means anything at all, it means the right to tell people what they do not want to hear&quot;.Â Â &lt;br /&gt;
+
+Â &lt;br /&gt;
+
+Thank you.&lt;br /&gt;
+
+Â &lt;/p&gt;
+&lt;/div&gt;
+&lt;span class=&quot;no_print&quot;&gt;&lt;ul style=&quot;font-style:italic;&quot;&gt;
+&lt;li&gt;Follow Geert Wilders on &lt;a href=&quot;https://twitter.com/geertwilderspvv&quot;&gt;Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/span&gt;&lt;p style=&quot;text-align:center; border-top:1px dotted gray; padding-top:15px; font-size:90%;&quot;&gt;&lt;i&gt;&amp;copy; 2019 Gatestone Institute. All rights reserved.&lt;/i&gt; The articles printed here do not necessarily reflect the views of the Editors or of Gatestone Institute. No part of the Gatestone website or any of its contents may be reproduced, copied or modified, without the prior written consent of Gatestone Institute.&lt;/p&gt;
+
+
+&lt;p style=&quot;clear:both; margin:10px 0 20px 0; padding-top:5px; border-top:1px dotted gray; font-family:Arial,sans-serif; color:#525050; font-size:13px;&quot;&gt;&lt;div class=&quot;no_print&quot;&gt;
+&lt;div class=&quot;subscribe-title&quot;&gt;Get Free Exclusive Gatestone Content: &lt;/div&gt;
+&lt;form id=&quot;form2&quot; method=&quot;POST&quot; action=&quot;https://www.gatestoneinstitute.org/list_subscribe.php&quot; style=&quot;margin:0 0 15px;0; padding:0;&quot;&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;list_ids[]&quot; value=&quot;1&quot; /&gt;
+&lt;input type=&quot;hidden&quot; name=&quot;languages[]&quot; value=&quot;0&quot; /&gt;
+ &lt;input type=&quot;email&quot; class=&quot;address&quot; name=&quot;email&quot; placeholder=&quot;Email Address&quot; size=&quot;20&quot; style=&quot;direction:ltr; padding:5px 3px; background-color:#F6F6FC; border:1px solid #000000; color:#000000; width:260px;&quot; /&gt;
+&lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Submit&quot; style=&quot;border:1px solid #000; margin:0; padding:4px 5px; vertical-align:bottom;&quot; /&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;addthis_sharing_toolbox no_print&quot;&gt;&lt;/div&gt;
+
+&lt;div style=&quot;margin-top:15px;&quot;&gt;&lt;b&gt;Recent Articles by &lt;a href=&quot;https://www.gatestoneinstitute.org/author/Geert+Wilders&quot;&gt;&lt;span itemprop=&quot;author&quot;&gt;Geert Wilders&lt;/span&gt;&lt;/a&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;ul style=&quot;margin-top:5px;&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/12394/wilders-robinson-statement&quot;&gt;VIDEO - Geert Wilders: &quot;Restore freedom of speech&quot;&lt;/a&gt;, 2018-05-28&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/12376/wilders-tommy-robinson-arrest&quot;&gt;Parliamentary Questions on the Arrest of Tommy Robinson&lt;/a&gt;, 2018-05-27&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/11906/olympics-patriotism&quot;&gt;Thank God for the Olympics&lt;/a&gt;, 2018-02-18&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/11440/geert-wilders-drain-swamp&quot;&gt;Time to Drain the Swamp - Also in Europe&lt;/a&gt;, 2017-11-26&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/11009/geert-wilders-in-my-opinion-islam-is-not&quot;&gt;Geert Wilders: &quot;In My Opinion, Islam Is Not a Religion&quot;&lt;/a&gt;, 2017-09-16&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;span style=&quot;margin:3px 0 3px 0; text-transform:lowercase; font-variant:small-caps; color:black; display:block;&quot;&gt;receive the latest by email: &lt;a href=&quot;https://www.gatestoneinstitute.org/list_subscribe.php&quot;&gt;subscribe&lt;/a&gt; to the free gatestone institute &lt;a href=&quot;https://www.gatestoneinstitute.org/list_subscribe.php&quot;&gt;mailing list&lt;/a&gt;.&lt;/span&gt;
+
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;span itemprop=&quot;inLanguage&quot; style=&quot;display:none !important;&quot;&gt;en&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;script language=&quot;javascript&quot; src=&quot;https://www.gatestoneinstitute.org/tracker.js?ts=zRXY0N3Xlx2YpRnchxHOw0SOw0SOxAjM8NjM&quot;&gt;&lt;/script&gt;
+
+&lt;div class=&quot;no_print&quot;&gt;
+&lt;a name=&quot;comments&quot;&gt;&lt;/a&gt;
+&lt;a name=&quot;comment_submit&quot;&gt;&lt;/a&gt;
+&lt;h2 class=&quot;comment_form_header_main no_print&quot; style=&quot;color:white; background:black; padding:3px 10px 3px 10px; margin:10px 0 10px 0; border:1px solid black;&quot;&gt;Comment on this item&lt;/h2&gt;
+&lt;p&gt;Gatestone Institute greatly appreciates your comments. The editors reserve the right, however, &lt;i&gt;not&lt;/i&gt; to publish comments containing: incitement to violence, profanity, or any broad-brush slurring of any race, ethnic group or religion. Gatestone also reserves the right to edit comments for length, clarity and grammar. All thoughtful suggestions and analyses will be gratefully considered. Commenters' email addresses will not be displayed publicly. Gatestone regrets that, because of the increasingly great volume of traffic, we are not able to publish them all.&lt;/p&gt;
+&lt;code class=&quot;ruby hljs&quot;&gt;&lt;div class=&quot;terminal-wrapper&quot;&gt;&lt;a&gt;&lt;span class=&quot;hljs-string&quot;&gt;&lt;script src=&quot;https://plugin.parler.com/production/react.production.min.js&quot; crossorigin&gt;&lt;/script&gt;&lt;/span&gt;&lt;span class=&quot;hljs-string&quot;&gt;&lt;script src=&quot;https://plugin.parler.com/production/react-dom.production.min.js&quot; crossorigin&gt;&lt;/script&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/code&gt;
+&lt;code class=&quot;nohighlight&quot;&gt;&lt;div class=&quot;terminal-wrapper&quot;&gt;&lt;a&gt;&lt;span class=&quot;hljs-string&quot;&gt;&lt;script src=&quot;https://plugin.parler.com/production/parler-for-wordpress-public.js&quot;&gt;&lt;/script&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/code&gt;
+&lt;code class=&quot;nohighlight&quot;&gt;&lt;div class=&quot;terminal-wrapper&quot;&gt;&lt;a&gt;&lt;span class=&quot;hljs-string&quot;&gt;&lt;link rel=&quot;stylesheet&quot; href=&quot;https://plugin.parler.com/production/parler-for-wordpress-public.css&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/code&gt;
+&lt;code class=&quot;nohighlight&quot;&gt;&lt;div id=&quot;comments&quot; style=&quot;width:100%; max-width:100%; margin:auto; padding-bottom:20px;&quot;&gt;&lt;/div&gt;&lt;/code&gt;
+
+&lt;div class=&quot;nocontent&quot;&gt;
+&lt;h2 class=&quot;no_print&quot; style=&quot;color:white; background:black; padding:3px 10px 3px 10px; margin:10px 0 20px 0; border:1px solid black;&quot;&gt;1 Reader Comments&lt;/h2&gt;
+
+&lt;div class=&quot;nocontent robots-nocontent&quot;&gt;
+&lt;!--googleoff: index--&gt;
+&lt;!--noindex--&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+&lt;!--
+.comment_item, .reply_form {
+line-height:1.2;
+font-size:14px;
+}
+.comment_item p {
+margin:10px 0;
+line-height:1.2;
+font-size:14px;
+}
+.comment_response {
+padding-left: 25px;
+}
+.comment_separator 		 {
+margin-bottom:25px;
+padding-bottom:15px;
+border-bottom:1px dotted black;
+}
+.response_name {
+color: #808080;
+font-size: 95%;
+}
+.response_name img {
+max-width:13px;
+}
+.dont-break-out {
+overflow-wrap: break-word;
+word-wrap: break-word;
+-ms-word-break: break-all;
+word-break: break-word;
+}
+--&gt;
+&lt;/style&gt;
+
+&lt;div id=&quot;comment_77&quot; class=&quot;comment_item&quot;&gt;
+&lt;div style=&quot;margin-bottom:5px;&quot;&gt;&lt;b style=&quot;color:#DA5724;&quot;&gt;Roy Milligan&lt;/b&gt;  &amp;#8226; &lt;span style=&quot;font-size:95%;&quot;&gt;Mar 26, 2009 at 23:34&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;dont-break-out&quot;&gt;This man is very smart and understands the danger we will all be in if we continue to let the Muslims into our countries, they have said themselves that they want to take control of the world, and they do not want to obey the rules of the countries they go to, but want to change the rules to their customs. If our politicians don't stop this now, it will be too late when they come to realize the folly of their decisions, as the Muslims will take full control and fredom of speech will be a thing of the past, there are already too many court cases against people who have tried to warn about the dangers of Muslim domination.&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;reply_form&quot; style=&quot;margin:10px 0 0 0;&quot;&gt;&lt;span class=&quot;reply_link&quot; style=&quot;color:gray; text-decoration:none; cursor:pointer;&quot; form_id=&quot;77&quot;&gt;&lt;b&gt;Reply-&amp;gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+
+&lt;div class=&quot;comment_separator&quot;&gt;&lt;/div&gt;
+
+&lt;!--/noindex--&gt;
+&lt;!--googleon: index--&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/td&gt;
+
+&lt;td id=&quot;sidebar&quot; class=&quot;no_print nocontent&quot; style=&quot;padding:12px 0 0 0; margin:auto; text-align:center;&quot;&gt;
+&lt;div style=&quot;margin:auto; text-align:left;&quot;&gt;
+
+&lt;div style=&quot;padding:0 33px; margin-bottom:20px;&quot;&gt;
+&lt;div class=&quot;subscribe-title&quot;&gt;Get Free Exclusive Gatestone Content: &lt;/div&gt;
+&lt;form id=&quot;form1&quot; method=&quot;POST&quot; action=&quot;https://gatestoneinstitute.us9.list-manage.com/subscribe/post-json?u=ae44aaf3f07dbffc928ba7cb5&amp;id=ef816ce96c&amp;c=?&quot; style=&quot;margin:0; padding:0;&quot;&gt;
+&lt;input type=&quot;email&quot; class=&quot;address&quot; name=&quot;EMAIL&quot; placeholder=&quot;Email Address&quot; size=&quot;20&quot; style=&quot;direction:ltr; padding:5px 3px; background-color:#F6F6FC; border:1px solid #000000; color:#000000; width:175px;&quot; required /&gt;
+&lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Submit&quot; style=&quot;border:1px solid #000; margin:0; padding:4px 5px; vertical-align:bottom;&quot; /&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function() {
+$( '#side_links_tabs').tabs();
+});
+&lt;/script&gt;
+&lt;div id=&quot;side_links_tabs&quot; class=&quot;right_box&quot; style=&quot;border:none; border-bottom:1px dotted gray;&quot;&gt;
+&lt;ul style=&quot;font-size:13px; font-family:Arial,sans-serif !important;&quot;&gt;
+&lt;li&gt;&lt;a href=&quot;#side-tabs-1&quot;&gt;&lt;b&gt;Most Popular&lt;/b&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#side-tabs-2&quot;&gt;&lt;b&gt;Newest&lt;/b&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&quot;side-tabs-1&quot;&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/14794/the-dangerous-stalinism-of-the-woke-hard-left&quot;&gt;The Dangerous Stalinism of the &quot;Woke&quot; Hard-Left&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink_byline&quot;&gt;by Alan M. Dershowitz&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/14785/boko-haram-bloody-terror&quot;&gt;Boko Haram: Bloody Terror, No End in Sight&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink_byline&quot;&gt;by Uzay Bulut&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/14817/italy-matteo-salvini&quot;&gt;Italy: Salvini Down but Not Out&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink_byline&quot;&gt;by Soeren Kern&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/14804/iran-zarif-welcome-europe&quot;&gt;Zarif's Inexcusable Warm Welcome in Europe&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink_byline&quot;&gt;by Mina Bai&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/14816/us-taliban-negotiations-qatar&quot;&gt;The U.S.-Taliban Negotiations: A Deadly Qatari Trap&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink_byline&quot;&gt;by Yigal Carmon&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/14727/iran-democrat-presidential-debates&quot;&gt;Iran's Mullahs: Loving the Democrats' Presidential Debates&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink_byline&quot;&gt;by Majid Rafizadeh&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;side-tabs-2&quot;&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/14816/us-taliban-negotiations-qatar&quot;&gt;The U.S.-Taliban Negotiations: A Deadly Qatari Trap&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink_byline&quot;&gt;by Yigal Carmon&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/14805/despots-deals&quot;&gt;How Despots Interpret Deals with the West&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink_byline&quot;&gt;by Bassam Tawil&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/14818/islamist-terrorism-yemen&quot;&gt;Islamist-inspired Terrorism Returns to Yemen&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink_byline&quot;&gt;by Con Coughlin&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/14811/brexit-saga-continues&quot;&gt;Brexit - The Saga Continues&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink_byline&quot;&gt;by Andrew Ash&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/14817/italy-matteo-salvini&quot;&gt;Italy: Salvini Down but Not Out&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink_byline&quot;&gt;by Soeren Kern&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/14785/boko-haram-bloody-terror&quot;&gt;Boko Haram: Bloody Terror, No End in Sight&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink_byline&quot;&gt;by Uzay Bulut&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;right_box&quot; style=&quot;width:100%;&quot;&gt;
+&lt;p class=&quot;right_box_heading&quot;&gt;&lt;b&gt;Top Issues&lt;/b&gt;&lt;/p&gt;
+&lt;div class=&quot;right_box_inner&quot;&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/topics/37/europes-migrant-crisis&quot;&gt;Europe's Migrant Crisis&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/topics/38/iranian-nuclear-program&quot;&gt;Iranian Nuclear Program&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/topics/41/national-defense&quot;&gt;National Defense&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/topics/40/persecution-of-minorities&quot;&gt;Persecution of Minorities&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/topics/30/syria&quot;&gt;Syria&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;sidelink&quot;&gt;
+&lt;div class=&quot;sidelink_headline&quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/topics/39/threats-to-free-speech&quot;&gt;Threats to Free Speech&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;margin:0 0 15px 0; padding-bottom: 10px; border-bottom:1px solid gray; text-align:center; &quot;&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/5293/raif-badawi-death-penalty&quot; style=&quot;text-decoration:none; color:black;&quot;&gt;
+&lt;div style=&quot;margin:0 12px 5px 12px; font-size:130%;&quot;&gt;&lt;b style=&quot;color:#B60505;&quot;&gt;FREE RAIF BADAWI!&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;margin:0 12px 5px 12px;&quot;&gt;Raif Badawi may now face the death penalty for apostasy in Saudi Arabia, according to recent reports.&lt;/div&gt;
+&lt;img src=&quot;https://www.gatestoneinstitute.org/pics/large/892.jpg&quot; border=&quot;0&quot; style=&quot;margin:0; width:100%; max-width:350px;&quot; &gt;
+&lt;/a&gt;&lt;/div&gt;
+
+&lt;a class=&quot;twitter-timeline&quot; href=&quot;https://twitter.com/GatestoneInst&quot; data-widget-id=&quot;364807082190446592&quot; width=&quot;100%&quot; style=&quot;max-width:100%!important;&quot;&gt;Tweets by @GatestoneInst&lt;/a&gt;
+&lt;script&gt;!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+&quot;://platform.twitter.com/widgets.js&quot;;fjs.parentNode.insertBefore(js,fjs);}}(document,&quot;script&quot;,&quot;twitter-wjs&quot;);&lt;/script&gt;
+
+&lt;/div&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;footer id=&quot;footer&quot; class=&quot;no_print nocontent&quot; style=&quot;margin:auto; margin-top:0; max-width:1020px;&quot;&gt;
+&lt;div style=&quot;padding:20px 30px;&quot;&gt;
+
+  &lt;p&gt;Copyright &amp;copy; 2019 Gatestone Institute. &lt;br /&gt;All rights reserved.&lt;/p&gt;
+
+&lt;p&gt;The articles printed here do not necessarily reflect the views of the Editors or of Gatestone Institute.
+Both reserve the right not to publish replies to articles should they so choose.&lt;br /&gt;
+Gatestone Institute is a 501(c)3 not-for-profit organization, Federal Tax ID #454724565.&lt;/p&gt;
+
+&lt;div class=&quot;title&quot;&gt;&lt;b&gt;Gatestone Contacts&lt;/b&gt;&lt;/div&gt;
+  &lt;p&gt;Contact: info@gatestoneinstitute.org&lt;br /&gt;
+    Editorial: editor@gatestoneinstitute.org&lt;br /&gt;
+Comments: support@parler.com&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/terms-of-use/&quot;&gt;Terms of Use&lt;/a&gt; &amp;nbsp; &lt;a href=&quot;https://www.gatestoneinstitute.org/privacy-policy/&quot;&gt;Privacy &amp;amp; Cookies Policy&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/footer&gt;
+
+&lt;nav role=&quot;navigation&quot; class=&quot;nav nocontent no_print&quot;&gt;
+&lt;input class=&quot;trigger&quot; type=&quot;checkbox&quot; id=&quot;mainNavButton&quot;&gt;
+&lt;label for=&quot;mainNavButton&quot; onclick&gt;Navigation Menu&lt;/label&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/about/&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/events.php&quot;&gt;Events&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/experts/&quot;&gt;Experts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/authors/&quot;&gt;Authors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/contribute.php&quot;&gt;Donate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/archives/&quot;&gt;Archives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/list_subscribe.php&quot;&gt;Mailing List&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/in-the-media/&quot;&gt;Media Citations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.gatestoneinstitute.org/about/contact/&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;nav_search&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;nav_search_link&quot;&gt;Search&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+
+&lt;/div&gt;&lt;style type=&quot;text/css&quot;&gt;
+
+.float-bar {
+background:#041a37;
+font-size: 14px;
+opacity:0.9;
+position:fixed;
+bottom:0;
+width: 100%;
+}
+
+.float-bar p {
+color: #FFFFFF;
+font-size: 14px;
+margin:0;
+padding: 15px 20px;
+}
+
+.float-bar a { color: #87cefa; }
+
+button.agree {
+background:transparent;
+border: 2px solid #6f90bb;
+border-radius: 2px;
+color: #FFFFFF;
+text-align: center;
+font-size: 16px;
+cursor: pointer;
+padding: 10px 30px;
+margin: 5px auto;
+display:inline-block;
+}
+
+button.agree:hover { background: #0f315f; }
+
+.container.bar { padding: 0; }
+
+.cookies-text {
+width:80%;
+float: left;
+}
+
+.cookies-btn {
+width: 20%;
+float: left;
+padding: 10px 0;
+}
+
+@media screen and (max-width: 750px) {
+.cookies-text { width: 100%; }
+.cookies-btn {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+.container.bar { text-align: center; }
+.float-bar p { padding-bottom: 0px; }
+
+}
+&lt;/style&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://www.gatestoneinstitute.org/includes/cookies_consent.js&quot;&gt;&lt;/script&gt;
+
+&lt;div class=&quot;float-bar&quot;&gt;
+&lt;div class=&quot;container bar&quot;&gt;
+&lt;div class=&quot;cookies-text&quot;&gt;
+&lt;p&gt;This website uses cookies to provide you with better services. &lt;br /&gt; To find out more, please review our &lt;a href=&quot;https://www.gatestoneinstitute.org/privacy-policy/&quot; target=&quot;_blank&quot;&gt;Privacy and Cookies Policy&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;cookies-btn&quot;&gt;&lt;button class=&quot;agree&quot; onclick=&quot;removeGdpr();&quot;&gt;OK&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5716735-1', 'auto');
+  ga('send', 'pageview');
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
