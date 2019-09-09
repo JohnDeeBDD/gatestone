@@ -26,10 +26,6 @@ class AuthorCurlParser{
         return $this->parseRow($row,'title');
     }
 
-    public function retunRemoteAuthor($row){
-        return $this->parseRow($row,'author');
-    }
-
     public function retunRemoteDate($row){
         return $this->parseRow($row,'date');
     }
