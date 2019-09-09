@@ -30,7 +30,7 @@ class SinglePostProcessorTest extends \Codeception\TestCase\WPTestCase{
             file_put_contents ( $fn, $parsedContent);
 
             $stubContent = $ContentStubs->getStubContent($maxStubs);
-            $this->assertEquals($stubContent, $parsedContent, "The stub and the parsed content don't match.");
+            $this->assertEquals($stubContent, $parsedContent, "The stub and the parsed content don't match on $maxStubs");
             $maxStubs = $maxStubs + 1;
         }
     }

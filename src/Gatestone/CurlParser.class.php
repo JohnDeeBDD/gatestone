@@ -1,5 +1,6 @@
 <?php
 namespace Gatestone;
+
 class CurlParser{
   public function parseRow($row,$section){
     preg_match('|<tr><td(?:[^>]+)><a href="http(?:s?):\\/\\/([^\\/]*)\\/([^"]*)\\/([^"]*)"(?:.*)>(.*)<\\/a><\\/td><td(?:[^>]*)>(.*)<\\/td><td>(.*)<\\/td><\\/tr>|',$row,$matches);
@@ -45,6 +46,10 @@ class CurlParser{
         return $trs[0];
     }
     return false;
+}
+
+    public function returnArrayOfLinksAuthorPages($response){
+
 }
 
 
