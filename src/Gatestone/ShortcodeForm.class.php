@@ -29,8 +29,14 @@ output;
     }
 
     public function getNextItemLink(){
-        $output = "<a href = 'http://yeezyideationcenter.com/parser/?nextCurl=23'>NEXT CURL</a>";
-        return $output;
+        $args = array( 'posts_per_page' => 1, 'post_type'=> 'post', 'author' => 1);
+        query_posts($args);
+        while (have_posts() ){
+
+        $title = get_the_permalink();
+
+        }
+        //return $title;
     }
 
     public function processForm(){
@@ -115,7 +121,7 @@ output;
                     'ID' => $remotePostID,
                     //'comment_status'    =>  'open',
                     'post_content' => 'NO CONTENT YET',
-                    'post_author' => $authorID,
+                    'post_author' => "1",
                     'post_name' => $remoteSlug,
                     'post_status' => 'publish',
                     'post_title' => $remoteTitle,
@@ -126,7 +132,7 @@ output;
                 $post = array(
                     'import_id' => $remotePostID,
                     //'comment_status'  =>  'open',
-                    'post_author' => $authorID,
+                    'post_author' => "1",
                     'post_content' => 'NO CONTENT YET',
                     'post_name' => $remoteSlug,
                     'post_status' => 'publish',

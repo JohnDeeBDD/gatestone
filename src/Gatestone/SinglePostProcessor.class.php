@@ -27,6 +27,7 @@ class SinglePostProcessor{
     }
 
     public function getAuthorUrl($response){
+        //example cUrl: https://www.gatestoneinstitute.org/14785/boko-haram-bloody-terror
         //todo
         //it should find the first full https: BEFORE <span itemprop="author">
 
