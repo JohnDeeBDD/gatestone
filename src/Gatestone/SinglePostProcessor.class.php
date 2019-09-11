@@ -26,12 +26,19 @@ class SinglePostProcessor{
 
     }
 
+    public function getAuthorUrl($response){
+        //todo
+        //it should find the first full https: BEFORE <span itemprop="author">
+
+        $authorUrl = "TO DO!";
+        return $authorUrl;
+    }
 
 public function parseContent($postCUrlResponse){
 
     $pos = strpos($postCUrlResponse, '<div id="print_content_3"');
     $topCutOff =substr($postCUrlResponse,$pos);
-    $bottomCutOff = strstr($topCutOff, '<p style="text-align:center; border-top:1px dotted gray; padding-top:15px; font-size:90%;"><i>&copy; 2019 Gatestone Institute.', true);
+    $bottomCutOff = strstr($topCutOff, '<div class="subscribe-title">', true);
     return $bottomCutOff;
 }
 

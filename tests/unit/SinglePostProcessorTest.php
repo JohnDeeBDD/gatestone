@@ -9,6 +9,27 @@ class SinglePostProcessorTest extends \Codeception\TestCase\WPTestCase{
     public function isShouldBeInstantialble(){
         $SinglePostProcessor = new Gatestone\SinglePostProcessor;
     }
+
+    /**
+     * @test
+     * it should return the author URL
+     */
+    public function itShouldReturnTheAuthorUrl(){
+        $maxStubs = 1;
+        while($maxStubs < 3) {
+            $SinglePostProcessor = new Gatestone\SinglePostProcessor;
+            $ContentStubs = new ContentStubs;
+
+            $stubResponse = $ContentStubs->getStubResponse($maxStubs);
+            $authorUrl = $SinglePostProcessor->getAuthorUrl($stubResponse);
+
+            if($maxStubs == 1){$expectedAuthorUrl = "https://www.gatestoneinstitute.org/author/Soeren+Kern";}
+            if($maxStubs == 2){$expectedAuthorUrl = "https://da.gatestoneinstitute.org/author/Soeren+Kern";}
+
+            $this->assertEquals($expectedAuthorUrl, $authorUrl);
+            $maxStubs = $maxStubs + 1;
+        }
+    }
     
     /**
      * @test

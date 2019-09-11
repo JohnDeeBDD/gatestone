@@ -20,7 +20,7 @@ class AuthorCurlParserTest extends \Codeception\TestCase\WPTestCase{
         $CurlParser = new Gatestone\AuthorCurlParser;
         $row = $this->row;
         $remotePostID = $CurlParser->retunRemotePostID($row);
-        $this->assertEquals("1", $remotePostID);
+        $this->assertEquals("381", $remotePostID);
     }
 
     /**
