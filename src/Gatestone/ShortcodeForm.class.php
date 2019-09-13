@@ -11,8 +11,9 @@ class ShortcodeForm
         $output = $output . $this->getNextItemLink();
         $output = $output . <<<output
 <form method = "post">
+Nigeria: https://www.gatestoneinstitute.org/topics/18/nigeria<br />
+<br />
 <a href = "http://yeezyideationcenter.com/parser/?reset=TRUE">RESET</a><br />
-<a href = "http://yeezyideationcenter.com/parser/?nigeria=TRUE">Re-load Test</a><br />
 
 Parse for Archive Rows: <input type = "text" name = "fetch-url-for-rows" /><br />
 <br />
@@ -25,18 +26,27 @@ Single post parse: <input type = "text" name = "fetch-single-remote-post" /><br 
 output;
         $response = $this->processForm();
         $output = $output . $response;
+
+        //$ID = username_exists( "lawrenceafranklin" );
+        //var_dump($ID);die();
+
+        //die('xx');
+
         return $output;
     }
 
     public function getNextItemLink(){
-        $args = array( 'posts_per_page' => 1, 'post_type'=> 'post', 'author' => 1);
-        query_posts($args);
-        while (have_posts() ){
+        $issue = new \WP_Query( array(
+            'posts_per_page' => 1, 'post_type'=> 'post', 'author' => 1
+        ) );
 
-        $title = get_the_permalink();
+        if ( $issue->have_posts() ) {
+            while ( $issue->have_posts() ) : $issue->the_post();
+                $title = get_the_title();
+                echo "<h2>$title</h2>";
 
+            endwhile;
         }
-        //return $title;
     }
 
     public function processForm(){
@@ -109,19 +119,20 @@ output;
             $remotePostID = $CurlParser->retunRemotePostID($linkRow);
             $remoteSlug = $CurlParser->retunRemoteSlug($linkRow);
             $remoteTitle = $CurlParser->retunRemoteTitle($linkRow);
-            $remoteAuthorString = $CurlParser->retunRemoteAuthor($linkRow);
-            $RemoteAuthor = new RemoteAuthor();
-            $authorID = $RemoteAuthor->returnAuthorID($remoteAuthorString);
+            //$remoteAuthorString = $CurlParser->retunRemoteAuthor($linkRow);
+            //$RemoteAuthor = new RemoteAuthor();
+            //$authorID = $RemoteAuthor->returnAuthorID($remoteAuthorString);
+            $authorID = 1;
 
             $remoteDate = $CurlParser->retunRemoteDate($linkRow);
-            $output = $output . "remotePostID $remotePostID remoteSlug $remoteSlug remoteTitle $remoteTitle remoteAuthor $remoteAuthorString remoteDate $remoteDate <br />";
+            //$output = $output . "remotePostID $remotePostID remoteSlug $remoteSlug remoteTitle $remoteTitle remoteAuthor $remoteAuthorString remoteDate $remoteDate <br />";
 
             if (get_post_status($remotePostID)) {
                 $post = array(
                     'ID' => $remotePostID,
                     //'comment_status'    =>  'open',
                     'post_content' => 'NO CONTENT YET',
-                    'post_author' => "1",
+                    'post_author' => $authorID,
                     'post_name' => $remoteSlug,
                     'post_status' => 'publish',
                     'post_title' => $remoteTitle,
@@ -132,7 +143,7 @@ output;
                 $post = array(
                     'import_id' => $remotePostID,
                     //'comment_status'  =>  'open',
-                    'post_author' => "1",
+                    'post_author' => $authorID,
                     'post_content' => 'NO CONTENT YET',
                     'post_name' => $remoteSlug,
                     'post_status' => 'publish',

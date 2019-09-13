@@ -44,7 +44,7 @@ class SinglePostProcessorTest extends \Codeception\TestCase\WPTestCase{
 
             $stubResponse = $ContentStubs->getStubResponse($maxStubs);
 
-            $parsedContent = $SinglePostProcessor->parseContent($stubResponse, $maxStubs);
+            $parsedContent = $SinglePostProcessor->parseForContent($stubResponse, $maxStubs);
             $fn = "/var/www/html/wp-content/plugins/gatestone/tests/unit/stub-output-$maxStubs.html";
 
             //compare the content to the output
