@@ -4,9 +4,21 @@ namespace Gatestone;
 
 class RemoteAuthor{
 
-    public function returnAuthorID($niceName){
-        $authorName = $this->cleanAuthorName($niceName);
+    public function hashUnNames($unName){
+        $unName = md5($unName);
+        $unName = substr($unName, 0, 5);
+        return $unName;
+    }
 
+    public function returnAuthorID($niceName){
+        $siteUrl = site_url();
+
+        if($siteUrl == "http://ar.yeezyideationcenter.com"){
+            $niceName = $this->hashUnNames($niceName);
+        }
+
+        $authorName = $this->cleanAuthorName($niceName);
+        //
         $ID = username_exists( $authorName );
         //var_dump($ID);die();
         if ($ID){
@@ -15,6 +27,7 @@ class RemoteAuthor{
         $random_password = "P@ssw0rd!";
         $user_email = $authorName . "@parler.com";
         //$x = ( $authorName . " ".  $random_password . " ".$user_email ); die($x);
+
         $ID = wp_create_user( $authorName, $random_password, $user_email );
 
 
@@ -22,12 +35,16 @@ class RemoteAuthor{
         wp_update_user( array('ID' => $ID,'last_name' => $niceName) );
         update_user_meta( $ID, 'nickname', $niceName );
 
-        $u = new WP_User( $ID );
+        $u = new \WP_User( $ID );
         $u->remove_role( 'subscriber' );
-        $u->add_role( 'editor' );
-
-
+        $u->add_role( 'author' );
         return $ID;
+    }
+
+    public function parseCharSetName($authorName){
+        $authorName = md5($authorName);
+        $authorName = substr($authorName, 0, 5);
+        return $authorName;
     }
 
     public function cleanAuthorName($authorName){

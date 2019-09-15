@@ -13,9 +13,26 @@ class RemoteAuthorTest extends \Codeception\TestCase\WPTestCase
 
     /**
      * @test
-     * it should clean the author name properly
+     * it should create an author if one doesn't exist
+     */
+    public function itShouldCreateAnAuthorIfOneDoesntExist(){
+        $user_name = "Some Guy";
+
+        $RemoteAuthor = new Gatestone\RemoteAuthor;
+        $returnedID = $RemoteAuthor->returnAuthorID($user_name);
+
+        $WpReturnedID = username_exists("someguy");
+
+        $this->assertEquals($returnedID, $WpReturnedID);
+    }
+
+    /**
+     * @test
+     * it should clean the nicename properly
      */
     public function isShouldCleanItProperly(){
+        global $isPheonetic;
+        $isPheonetic = TRUE;
         $RemoteAuthor = new Gatestone\RemoteAuthor;
         $name = "bat man";
         $response = $RemoteAuthor->cleanAuthorName($name);
@@ -23,6 +40,7 @@ class RemoteAuthorTest extends \Codeception\TestCase\WPTestCase
 
         $name = "ç Ätm ÄÑ";
         $response = $RemoteAuthor->cleanAuthorName($name);
+
         $this->assertEquals("catman", $response, "The expoected response is 'catman' the actual response is: '$response''");
 
         $name = "Bat Ye'or";
@@ -36,6 +54,7 @@ class RemoteAuthorTest extends \Codeception\TestCase\WPTestCase
         $name = "Anne-Elisabeth Moutet";
         $response = $RemoteAuthor->cleanAuthorName($name);
         $this->assertEquals("anneelisabethmoutet", $response, "The expoected response is 'anneelisabethmoutet' the actual response is: '$response''");
+
 
 
     }
@@ -53,22 +72,6 @@ class RemoteAuthorTest extends \Codeception\TestCase\WPTestCase
         $this->assertEquals($expectedResponse, $response, "The response is: $response");
     }
 
-
-    /**
-     * @test
-     * it should create an author if one doesn't exist
-     */
-    public function itShouldCreateAnAuthorIfOneDoesntExist(){
-        $user_name = "Some Guy";
-
-        $RemoteAuthor = new Gatestone\RemoteAuthor;
-        $returnedID = $RemoteAuthor->returnAuthorID($user_name);
-
-        $WpReturnedID = username_exists("someguy");
-
-        $this->assertEquals($returnedID, $WpReturnedID);
-    }
-
     /**
      * @test
      * it should return the ID of an existing author
@@ -81,11 +84,9 @@ class RemoteAuthorTest extends \Codeception\TestCase\WPTestCase
         $user_id = wp_create_user( "billybob", $random_password, $user_email );
 
         $RemoteAuthor = new Gatestone\RemoteAuthor;
-        $returnedID = $RemoteAuthor->returnAuthorID($user_name);
+        $returnedID = $RemoteAuthor->returnAuthorID("billybob");
 
         $this->assertEquals($user_id, $returnedID, "The IDs don't match for some reason");
     }
-
-
 
 }

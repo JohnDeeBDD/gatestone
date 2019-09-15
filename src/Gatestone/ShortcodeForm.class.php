@@ -8,12 +8,20 @@ class ShortcodeForm
     public function renderForm()
     {
         $output = "";
-        $output = $output . $this->getNextItemLink();
+        $CurlCFetcher = new CurlFetcher();
+        $CurlCFetcher->getGateStoneUrlFromCurrentSite();
+
+        if(isset($_GET['runner'])){
+            //die('runner');
+            $output = $output . "<script src=\"/wp-content/plugins/gatestone/src/Gatestone/runner.js\"></script>";
+        }
         $output = $output . <<<output
+
 <form method = "post">
 Nigeria: https://www.gatestoneinstitute.org/topics/18/nigeria<br />
+AR: https://ar.gatestoneinstitute.org/topics/30/<br />
 <br />
-<a href = "http://yeezyideationcenter.com/parser/?reset=TRUE">RESET</a><br />
+<a href = "/parser/?reset=TRUE">RESET</a><br />
 
 Parse for Archive Rows: <input type = "text" name = "fetch-url-for-rows" /><br />
 <br />
@@ -23,10 +31,11 @@ Single post parse: <input type = "text" name = "fetch-single-remote-post" /><br 
 <br />
 <input type = "submit" />
 </form>
+<br />
 output;
         $response = $this->processForm();
         $output = $output . $response;
-
+        $output = $output . $this->getNextItemLink();
         //$ID = username_exists( "lawrenceafranklin" );
         //var_dump($ID);die();
 
@@ -42,8 +51,11 @@ output;
 
         if ( $issue->have_posts() ) {
             while ( $issue->have_posts() ) : $issue->the_post();
+                $ID = get_the_ID();
+
                 $title = get_the_title();
-                echo "<h2>$title</h2>";
+                $Url = site_url();
+                echo "<h2>Next!:<br/><a id = 'next-item' href = '$Url/parser/?runner=TRUE&nextPost=$ID'>NEXT ITEM</a></h2>";
 
             endwhile;
         }
@@ -52,8 +64,8 @@ output;
     public function processForm(){
         //die('processForm');
         $output = "";
-        if(isset($_GET['nextCurl'])){
-            die("NEXTCURL!");
+        if(isset($_GET['nextPost'])){
+            $_POST['fetch-single-remote-post'] = $_GET['nextPost'];
         }
 
         if(isset($_GET['nigeria'])){

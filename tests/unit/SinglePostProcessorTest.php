@@ -30,7 +30,19 @@ class SinglePostProcessorTest extends \Codeception\TestCase\WPTestCase{
             $maxStubs = $maxStubs + 1;
         }
     }
-    
+
+    /**
+     * @test
+     * it should return the date
+     */
+    public function itShouldReturnTheDate(){
+        $SinglePostProcessor = new Gatestone\SinglePostProcessor;
+        $ContentStubs = new ContentStubs;
+
+        $stubResponse = $ContentStubs->getStubResponse(1);
+
+    }
+
     /**
      * @test
      * it should return the content

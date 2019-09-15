@@ -14,11 +14,12 @@ class SinglePostProcessor{
         $slug = $post->post_name;
         $slug = "$post_id/$slug";
         $CurlFetcher = new CurlFetcher();
-        $response = $CurlFetcher->fetchRemoteCurl("https://www.gatestoneinstitute.org/$slug");
-
+        $Url = $CurlFetcher->getGateStoneUrlFromCurrentSite();
+        $response = $CurlFetcher->fetchRemoteCurl("$Url/$slug");
         $authorID = $this->processForAuthor($response);
+
         if($authorID == FALSE){
-            die("there is a problem singlepostprocessor 21");
+            die("there is a problem singlepostprocessor ");
         }
 
         $content = $this->parseForContent($response);
@@ -39,13 +40,15 @@ class SinglePostProcessor{
     public function processForAuthor($response){
         file_put_contents("/var/www/html/wp-content/plugins/gatestone/temp.html", $response);
         $tags = get_meta_tags ("/var/www/html/wp-content/plugins/gatestone/temp.html");
+        //var_dump($tags);die();
         if(isset($tags['author'])){
             $authorString = $tags['author'];
             $RemoteAuthor = new RemoteAuthor;
+           // $siteURL = site_Url();
             $authorID = $RemoteAuthor->returnAuthorID($authorString);
             return $authorID;
         }else {
-            return FASLE;
+            return FALSE;
         }
     }
     /**
@@ -84,7 +87,7 @@ class SinglePostProcessor{
      * @return string
      */
     public function parseForContent($postCUrlResponse){
-        $pos = strpos($postCUrlResponse, '<div id="print_content_3"');
+        $pos = strpos($postCUrlResponse, '<!-- PLAINTEXT STRIP END -->');
         $topCutOff =substr($postCUrlResponse,$pos);
         $bottomCutOff = strstr($topCutOff, '<div class="subscribe-title">', true);
         return $bottomCutOff; // YOU DO NOT NEED THIS LINE. JUST RETURN LINE BEFORE THIS ONE!
