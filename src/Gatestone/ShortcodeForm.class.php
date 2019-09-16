@@ -178,7 +178,7 @@ OUTPUT;
                 );
                 $post_id = wp_insert_post($post);
             } else {
-                $x = "import_id = $remotePostID "; die($x);
+                //$x = "import_id = $remotePostID "; die($x);
                 $post = array(
                     'import_id' => $remotePostID,
                     //'comment_status'  =>  'open',

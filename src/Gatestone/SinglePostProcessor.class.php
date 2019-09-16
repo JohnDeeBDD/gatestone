@@ -93,8 +93,26 @@ class SinglePostProcessor{
         return $bottomCutOff; // YOU DO NOT NEED THIS LINE. JUST RETURN LINE BEFORE THIS ONE!
 
     }
-    public function parseDateAndTime($postCUrlResponse = null){
 
+    //these "cUrl responses" are text responses from an HTTP get of the site. They may come from either a live
+    //curl, or from the responses stored in the database for each post. We are keeping the original HTML for each post
+    //stored as post meta data in the post. This is so we can go back and look at it later if there is a mistake, or re-scan
+    //the site if nessicary.
+    //example: https://www.gatestoneinstitute.org/3561/europe-hijab
+    //iu also stored as stub-1.html in the tests/unit directory
+    public function parseDateAndTime($postCUrlResponse = null){}
+
+    /**
+     * @param $postCUrlResponse
+     * @return array
+     */
+    public function parseTopics($postCUrlResponse = null){
     }
+
+    /**
+     * @param $postCUrlResponse
+     * @return array['title'] ['content']
+     */
     public function parseSidebarAd($postCUrlResponse = null){}
+    public function parserForComments($postCUrlResponse = null){}
 }
