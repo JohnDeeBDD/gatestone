@@ -15,6 +15,7 @@ class ShortcodeForm
             //die('runner');
             $output = $output . "<script src=\"/wp-content/plugins/gatestone/src/Gatestone/runner.js\"></script>";
         }
+
         $output = $output . <<<output
 
 <form method = "post">
@@ -33,6 +34,7 @@ Single post parse: <input type = "text" name = "fetch-single-remote-post" /><br 
 </form>
 <br />
 output;
+            $output = $output . $this->parserLinksHTML();
         $response = $this->processForm();
         $output = $output . $response;
         $output = $output . $this->getNextItemLink();
@@ -41,6 +43,30 @@ output;
 
         //die('xx');
 
+        return $output;
+    }
+
+    public function parserLinksHTML()
+    {
+        $output = <<<OUTPUT
+https://.gatestoneinstitute.org/archives/<br />
+    <a href = "http://ar.yeezyideationcenter.com/parser/">ar</a><br />
+    <a href = "http://cs.yeezyideationcenter.com/parser/">cs</a><br />
+    <a href = "http://da.yeezyideationcenter.com/parser/">da</a><br />
+    <a href = "http://de.yeezyideationcenter.com/parser/">de</a><br />
+    <a href = "http://el.yeezyideationcenter.com/parser/">el</a><br />
+    <a href = "http://yeezyideationcenter.com/parser/"></a><br />
+    <a href = "http://es.yeezyideationcenter.com/parser/">es</a><br />
+    <a href = "http://fr.yeezyideationcenter.com/parser/">fr</a><br />
+    <a href = "http://he.yeezyideationcenter.com/parser/">he</a><br />
+    <a href = "http://it.yeezyideationcenter.com/parser/">it</a><br />
+    <a href = "http://nl.yeezyideationcenter.com/parser/">nl</a><br />
+    <a href = "http://pl.yeezyideationcenter.com/parser/">pl</a><br />
+    <a href = "http://pt.yeezyideationcenter.com/"parser/>pt</a><br />
+    <a href = "http://ru.yeezyideationcenter.com/parser/">ru</a><br />
+    <a href = "http://sk.yeezyideationcenter.com/parser/">sk</a><br />
+    <a href = "http://sv.yeezyideationcenter.com/"parser/>sv</a><br />
+OUTPUT;
         return $output;
     }
 
@@ -152,6 +178,7 @@ output;
                 );
                 $post_id = wp_insert_post($post);
             } else {
+                $x = "import_id = $remotePostID "; die($x);
                 $post = array(
                     'import_id' => $remotePostID,
                     //'comment_status'  =>  'open',
