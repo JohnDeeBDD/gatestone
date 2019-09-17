@@ -41,6 +41,10 @@ class SinglePostProcessorTest extends \Codeception\TestCase\WPTestCase{
 
         $stubResponse = $ContentStubs->getStubResponse(1);
 
+        $dateTime = $SinglePostProcessor->parseDateAndTime($stubResponse);
+        $expectedDataTime= "2013-02-01T05:00:00";
+
+        $this->assertEquals($expectedDataTime, $dateTime, "The dates don't line up. Expecting $expectedDataTime");
     }
 
     /**

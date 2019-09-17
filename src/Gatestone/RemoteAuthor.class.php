@@ -13,7 +13,11 @@ class RemoteAuthor{
     public function returnAuthorID($niceName){
         $siteUrl = site_url();
 
-        if($siteUrl == "http://ar.yeezyideationcenter.com"){
+        if(
+            ($siteUrl == "http://ar.yeezyideationcenter.com") or
+            ($siteUrl == "http://el.yeezyideationcenter.com") or
+            ($siteUrl == "http://ru.yeezyideationcenter.com")
+        ){
             $niceName = $this->hashUnNames($niceName);
         }
 
