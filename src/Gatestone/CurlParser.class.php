@@ -56,7 +56,7 @@ class CurlParser{
   public function returnArrayOfTopics($response){
       
     //remove the "selected" tag in the HTML:
-    $response = str_replace(" SELECTED", "", $response);
+    $response = str_replace(' SELECTED', '', $response);
 
     $arrayOfTopics=array();
     preg_match('/<select name="cat_urls"(?:[^>]*)>((?:.*\\n)*)<\\/select/',$response,$matches);

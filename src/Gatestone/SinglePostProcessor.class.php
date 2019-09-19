@@ -20,8 +20,9 @@ class SinglePostProcessor{
         $authorID = $this->processForAuthor($response);
         $dateTime = $this->parseDateAndTime($response);
 
+
         //Can't figure out the author. Assign SKIP
-        if($authorID == FALSE){
+        if($authorID === false){
             $authorID = 91;
         }
 
@@ -40,8 +41,8 @@ class SinglePostProcessor{
         $this->addTags($post_id, $response);
 
         $response = htmlspecialchars($response);
-        update_post_meta( $post_id, "cUrlResponse", $response);
-        update_post_meta( $post_id, "authorString", $authorID);
+        update_post_meta( $post_id, 'cUrlResponse', $response);
+        update_post_meta( $post_id, 'authorString', $authorID);
 
     }
 
@@ -53,19 +54,19 @@ class SinglePostProcessor{
     }
 
     public function processForAuthor($response){
-        file_put_contents("/var/www/html/wp-content/plugins/gatestone/temp.html", $response);
-        $tags = get_meta_tags ("/var/www/html/wp-content/plugins/gatestone/temp.html");
+        file_put_contents('/var/www/html/wp-content/plugins/gatestone/temp.html', $response);
+        $tags = get_meta_tags ('/var/www/html/wp-content/plugins/gatestone/temp.html');
         //var_dump($tags);die();
         if(isset($tags['author'])){
             $authorString = $tags['author'];
             $RemoteAuthor = new RemoteAuthor;
            // $siteURL = site_Url();
-            $authorID = $RemoteAuthor->returnAuthorID($authorString);
-            return $authorID;
-        }else {
-            return FALSE;
+            return $RemoteAuthor->returnAuthorID($authorString);
         }
+
+        return false;
     }
+
     /**
      * @param string $keyword
      * @param array $arr
@@ -101,11 +102,11 @@ class SinglePostProcessor{
      * @param $postCUrlResponse
      * @return string
      */
-    public function parseForContent($postCUrlResponse){
+    public function parseForContent($postCUrlResponse): string
+    {
         $pos = strpos($postCUrlResponse, '<!-- PLAINTEXT STRIP END -->');
         $topCutOff =substr($postCUrlResponse,$pos);
-        $bottomCutOff = strstr($topCutOff, '<div class="subscribe-title">', true);
-        return $bottomCutOff; // YOU DO NOT NEED THIS LINE. JUST RETURN LINE BEFORE THIS ONE!
+        return strstr($topCutOff, '<div class="subscribe-title">', true); // YOU DO NOT NEED THIS LINE. JUST RETURN LINE BEFORE THIS ONE!
 
     }
 
@@ -125,7 +126,7 @@ class SinglePostProcessor{
 
     /**
      * @param $postCUrlResponse
-     * @return array
+     * @return array|bool
      */
     public function NicosparseTopics($postCUrlResponse = null){
         preg_match('|<span[^>]*><b>Related Topics:<\\/b>(.*)<\\/span>|',$postCUrlResponse,$matches);
@@ -146,7 +147,7 @@ class SinglePostProcessor{
 
     /**
      * @param $postCUrlResponse
-     * @return array
+     * @return array|bool
      */
     public function parseTopics($postCUrlResponse = null){
         file_put_contents("/var/www/html/wp-content/plugins/gatestone/temp.html", $postCUrlResponse);
@@ -157,33 +158,32 @@ class SinglePostProcessor{
             $cleanArray = array();
             foreach($topicsArray as $topic){
                 $topic = ltrim($topic);
-                array_push($cleanArray, $topic);
+                $cleanArray[] = $topic;
             }
             return $cleanArray;
-        }else {
-            return FALSE;
         }
+
+        return FALSE;
     }
 
     /**
      * @param $postCUrlResponse
-     * @return array['title'] ['content'] ['image']
+     * @return array|bool
      */
     public function parseSidebarAd($postCUrlResponse = null){
       $dp1=explode('<td id="sidebar"',$postCUrlResponse);
-      if (count($dp1)!=2){
+      if ((int)count($dp1)!==2){
         echo 'not found sidebar';
         return false;
       }
-      else {
-       
+
         preg_match('|(<div style="[^"]*">[\\n\\r]*<a href="[^"]*"[^>]*>[\\n\\r]*<div[^>]*><b style="color.*B60505;">([^<\\/b>]*)<\\/b><\\/div>[\\n\\r]*)<div[^>]*>([\\n\\r]*.*)*|', $dp1[1],$matches);
-       
+
         if ($matches){
           $data=array('title'=>$matches[2],'content'=>'','image'=>'');
 
           $dp2=explode($matches[1],$matches[0]);
-          if (count($dp2)==2){
+          if ((int)count($dp2)===2){
             preg_match('|<div style="[^"]*">(.*[\\n\\r]*)<\\/div>|', $dp2[1],$matches);
             if ($matches){
               $data['content']=$matches[1];
@@ -193,14 +193,12 @@ class SinglePostProcessor{
               }
               return $data;
             }
-            else {
+
               return false;
-            }
           }
           return $data;
         }
         return false;
-      }
     }
     
     public function parserForComments($postCUrlResponse = null){

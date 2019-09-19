@@ -10,13 +10,17 @@ class RemoteAuthor{
         return $unName;
     }
 
+    /**
+     * @param $niceName
+     * @return mixed
+     */
     public function returnAuthorID($niceName){
         $siteUrl = site_url();
 
         if(
-            ($siteUrl == "http://ar.yeezyideationcenter.com") or
-            ($siteUrl == "http://el.yeezyideationcenter.com") or
-            ($siteUrl == "http://ru.yeezyideationcenter.com")
+            ($siteUrl === 'http://ar.yeezyideationcenter.com' ) ||
+            ($siteUrl === 'http://el.yeezyideationcenter.com' ) ||
+            ($siteUrl === 'http://ru.yeezyideationcenter.com' )
         ){
             $niceName = $this->hashUnNames($niceName);
         }
@@ -28,8 +32,8 @@ class RemoteAuthor{
         if ($ID){
            return $ID;
         }
-        $random_password = "P@ssw0rd!";
-        $user_email = $authorName . "@parler.com";
+        $random_password = 'P@ssw0rd!';
+        $user_email = $authorName . '@parler.com';
         //$x = ( $authorName . " ".  $random_password . " ".$user_email ); die($x);
 
         $ID = wp_create_user( $authorName, $random_password, $user_email );
@@ -45,27 +49,37 @@ class RemoteAuthor{
         return $ID;
     }
 
+    /**
+     * @param $authorName
+     * @return bool|string
+     */
     public function parseCharSetName($authorName){
         $authorName = md5($authorName);
         $authorName = substr($authorName, 0, 5);
         return $authorName;
     }
 
+    /**
+     * @param $authorName
+     * @return mixed|string
+     */
     public function cleanAuthorName($authorName){
-        $authorName = str_replace(' ', '', $authorName);
-        $authorName = str_replace('.', '', $authorName);
-        $authorName = str_replace(' ', '', $authorName);
-        $authorName = str_replace('-', '', $authorName);
+        $authorName = str_replace(array( ' ', '.', ' ', '-' ), '', $authorName);
         //$authorName = str_replace('-', '', $authorName);
         $authorName = $this->hyphenize($authorName);
         $authorName = strtolower($authorName);
         return $authorName;
     }
 
-    public function hyphenize($string) {
+    /**
+     * @param $string
+     * @return string
+     */
+    public function hyphenize($string): string
+    {
         $dict = array(
-            "I'm"      => "I am",
-            "thier"    => "their",
+            'I\'m'      => 'I am',
+            'thier' => 'their',
             // Add your own replacements here
         );
         return strtolower(
@@ -84,7 +98,11 @@ class RemoteAuthor{
         );
     }
 
-    function cleanString($text) {
+    /**
+     * @param $text
+     * @return string|string[]|null
+     */
+    public function cleanString($text) {
         $utf8 = array(
             '/[áàâãªä]/u'   =>   'a',
             '/[ÁÀÂÃÄ]/u'    =>   'A',

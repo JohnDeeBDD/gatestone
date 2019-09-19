@@ -5,20 +5,20 @@ namespace Gatestone;
 class ShortcodeForm
 {
 
-    public function renderForm()
+    public function renderForm(): string
     {
-        $output = "";
+        $output = '';
         $CurlCFetcher = new CurlFetcher();
         $CurlCFetcher->getGateStoneUrlFromCurrentSite();
 
         if(isset($_GET['runner'])){
 
             $lastPostID = $_GET['nextPost'];
-            $output = $output . "<script src='/wp-content/plugins/gatestone/src/Gatestone/runner.js'></script>";
-            $output = $output . "<a href = 'http://yeezyideationcenter.org/$lastPostID' target = '_blank' >LAST POST - $lastPostID</a>";
+            $output .= "<script src='/wp-content/plugins/gatestone/src/Gatestone/runner.js'></script>";
+            $output .= "<a href = 'http://yeezyideationcenter.org/$lastPostID' target = '_blank' >LAST POST - $lastPostID</a>";
         }
 
-        $output = $output . <<<output
+        $output .= <<<output
 
 <form method = "post">
 Nigeria: https://www.gatestoneinstitute.org/topics/18/nigeria<br />
@@ -36,11 +36,11 @@ Single post parse: <input type = "text" name = "fetch-single-remote-post" /><br 
 </form>
 <br />
 output;
-            $output = $output . $this->parserLinksHTML();
+        $output .= $this->parserLinksHTML();
         $response = $this->processForm();
-        $output = $output . $response;
-        $output = $output . $this->getNextItemLink();
-        //$ID = username_exists( "lawrenceafranklin" );
+        $output .= $response;
+        $output .= $this->getNextItemLink();
+        //$ID = username_exists( 'lawrenceafranklin' );
         //var_dump($ID);die();
 
         //die('xx');
@@ -48,7 +48,7 @@ output;
         return $output;
     }
 
-    public function parserLinksHTML()
+    public function parserLinksHTML(): string
     {
         $output = <<<OUTPUT
 https://.gatestoneinstitute.org/archives/<br />
@@ -83,7 +83,9 @@ OUTPUT;
 
                 $title = get_the_title();
                 $Url = site_url();
-                echo "<h2><a id = 'next-item' href = '$Url/parser/?runner=TRUE&nextPost=$ID'>NEXT ITEM</a></h2>";
+
+                echo "<h2><a id = 'next-item' href = '{$Url}/parser/?runner=TRUE&nextPost={$ID}'>NEXT ITEM</a></h2>";
+
 
             endwhile;
         }
@@ -91,13 +93,13 @@ OUTPUT;
 
     public function processForm(){
         //die('processForm');
-        $output = "";
+        $output = '';
         if(isset($_GET['nextPost'])){
             $_POST['fetch-single-remote-post'] = $_GET['nextPost'];
         }
 
         if(isset($_GET['nigeria'])){
-            $response = file_get_contents("/var/www/html/wp-content/plugins/gatestone/tests/unit/NigeriaResponse.html");
+            $response = file_get_contents('/var/www/html/wp-content/plugins/gatestone/tests/unit/NigeriaResponse.html');
             $this->parseForRows($response);
         }
 
@@ -119,21 +121,21 @@ OUTPUT;
             wp_reset_postdata();
         }
 
-        if (isset($_POST['fetch-single-remote-post']) && (!( $_POST['fetch-single-remote-post']== "")) ) {
+        if (isset($_POST['fetch-single-remote-post']) && (!( $_POST['fetch-single-remote-post']=== '' )) ) {
             $ID = $_POST['fetch-single-remote-post'];
             $SinglePostProcessor = new SinglePostProcessor;
             $SinglePostProcessor->cUrlFromID($ID);
             return $output;
         }
         //die("44");
-        if (isset($_POST['fetch-url-for-rows']) && (!( $_POST['fetch-url-for-rows']== "")) ) {
+        if (isset($_POST['fetch-url-for-rows']) && (!( $_POST['fetch-url-for-rows'] === '' )) ) {
             //die('rows');
             $CurlFetcher = new CurlFetcher;
             $response = $CurlFetcher->fetchRemoteCurl($_POST['fetch-url-for-rows']);
             $output = $this->parseForRows($response);
             return $output;
         }
-        if (isset($_POST['fetch-url-for-author-rows']) && (!( $_POST['fetch-url-for-author-rows']== "")) ) {
+        if (isset($_POST['fetch-url-for-author-rows']) && (!( $_POST['fetch-url-for-author-rows']=== '')) ) {
             //die('rows');
             $CurlFetcher = new CurlFetcher;
             $response = $CurlFetcher->fetchRemoteCurl($_POST['fetch-url-for-author-rows']);
@@ -154,7 +156,7 @@ OUTPUT;
         $arrayOfLinks = $CurlParser->returnArrayOfLinks($response);
         //var_dump($arrayOfLinks);die('dead');
 
-        $output = "";
+        $output = '';
         foreach ($arrayOfLinks as $linkRow) {
             $remotePostID = $CurlParser->retunRemotePostID($linkRow);
             $remoteSlug = $CurlParser->retunRemoteSlug($linkRow);
