@@ -5,7 +5,7 @@ namespace Gatestone;
 class ShortcodeForm
 {
 
-    public function renderForm()
+    public function renderForm(): string
     {
         $output = '';
         $CurlCFetcher = new CurlFetcher();
@@ -14,8 +14,8 @@ class ShortcodeForm
         if(isset($_GET['runner'])){
 
             $lastPostID = $_GET['nextPost'];
-            $output = $output . "<script src='/wp-content/plugins/gatestone/src/Gatestone/runner.js'></script>";
-            $output = $output . "<a href = 'http://yeezyideationcenter.org/$lastPostID' target = '_blank' >LAST POST - $lastPostID</a>";
+            $output .= "<script src='/wp-content/plugins/gatestone/src/Gatestone/runner.js'></script>";
+            $output .= "<a href = 'http://yeezyideationcenter.org/$lastPostID' target = '_blank' >LAST POST - $lastPostID</a>";
         }
 
         $output .= <<<output
@@ -48,7 +48,7 @@ output;
         return $output;
     }
 
-    public function parserLinksHTML()
+    public function parserLinksHTML(): string
     {
         $output = <<<OUTPUT
 https://.gatestoneinstitute.org/archives/<br />

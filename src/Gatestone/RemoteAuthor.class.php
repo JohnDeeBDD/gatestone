@@ -75,7 +75,8 @@ class RemoteAuthor{
      * @param $string
      * @return string
      */
-    public function hyphenize($string) {
+    public function hyphenize($string): string
+    {
         $dict = array(
             'I\'m'      => 'I am',
             'thier' => 'their',

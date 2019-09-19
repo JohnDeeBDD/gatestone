@@ -147,7 +147,7 @@ class SinglePostProcessor{
 
     /**
      * @param $postCUrlResponse
-     * @return array
+     * @return array|bool
      */
     public function parseTopics($postCUrlResponse = null){
         file_put_contents("/var/www/html/wp-content/plugins/gatestone/temp.html", $postCUrlResponse);
@@ -158,12 +158,12 @@ class SinglePostProcessor{
             $cleanArray = array();
             foreach($topicsArray as $topic){
                 $topic = ltrim($topic);
-                array_push($cleanArray, $topic);
+                $cleanArray[] = $topic;
             }
             return $cleanArray;
-        }else {
-            return FALSE;
         }
+
+        return FALSE;
     }
 
     /**
