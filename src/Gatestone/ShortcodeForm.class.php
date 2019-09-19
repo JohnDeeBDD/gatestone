@@ -12,8 +12,10 @@ class ShortcodeForm
         $CurlCFetcher->getGateStoneUrlFromCurrentSite();
 
         if(isset($_GET['runner'])){
-            //die('runner');
-            $output = $output . "<script src=\"/wp-content/plugins/gatestone/src/Gatestone/runner.js\"></script>";
+
+            $lastPostID = $_GET['nextPost'];
+            $output = $output . "<script src='/wp-content/plugins/gatestone/src/Gatestone/runner.js'></script>";
+            $output = $output . "<a href = 'http://yeezyideationcenter.org/$lastPostID' target = '_blank' >LAST POST - $lastPostID</a>";
         }
 
         $output .= <<<output
@@ -81,7 +83,9 @@ OUTPUT;
 
                 $title = get_the_title();
                 $Url = site_url();
-                echo "<h2>Next!:<br/><a id = 'next-item' href = '{$Url}/parser/?runner=TRUE&nextPost={$ID}'>NEXT ITEM</a></h2>";
+
+                echo "<h2><a id = 'next-item' href = '{$Url}/parser/?runner=TRUE&nextPost={$ID}'>NEXT ITEM</a></h2>";
+
 
             endwhile;
         }
