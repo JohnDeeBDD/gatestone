@@ -71,11 +71,55 @@ class SinglePostProcessorTest extends \Codeception\TestCase\WPTestCase{
             $maxStubs = $maxStubs + 1;
         }
     }
+    /**
+     * @test
+     * it should return the topics
+     */
+    public function isShouldReturnTheTopics(){
+        $maxStubs = 1;
+        while($maxStubs < 5) {
+            $SinglePostProcessor = new Gatestone\SinglePostProcessor;
+            $ContentStubs = new ContentStubs;
+
+            $stubResponse = $ContentStubs->getStubResponse($maxStubs);
+
+            $topic = $SinglePostProcessor->parseTopics($stubResponse);
+
+            ob_start();
+            var_dump($topic);
+            $result = ob_get_clean();
+
+            if($maxStubs == 1){
+                $expectedTopic = false;
+                $this->assertSame( $expectedTopic, $topic,"The topics don't line up on stub-$maxStubs. Got $result");
+            }
+            if($maxStubs == 2){
+                $expectedTopic = array ("Tyskland", "Iran", "Israel");
+                //$expectedTopic = array ("aaa", "ccc", "xxx");
+                $this->assertSame( $expectedTopic, $topic, "The topics don't line up on stub-$maxStubs. Got $result");
+            }
+            if($maxStubs == 3){
+                $expectedTopic = array("السلطة الفلسطينية", "Persecution of Christians");
+                $this->assertSame( $expectedTopic, $topic, "The topics don't line up on stub-$maxStubs. Got $result");
+            }
+            if($maxStubs == 4){
+                $expectedTopic = array("Nigeria");
+                $this->assertSame( $expectedTopic, $topic, "The topics don't line up on stub-$maxStubs. Got $result");
+            }
+            $maxStubs = $maxStubs + 1;
+        }
+    }
     
 }
 
 class ContentStubs{
-
+    /*
+     * canonicals
+     * https://www.gatestoneinstitute.org/3561/europe-hijab
+     * https://da.gatestoneinstitute.org/14823/tyskland-pro-iran-anti-israel
+     * https://ar.gatestoneinstitute.org/7897/الفلسطينيون-محو-التاريخ-المسيحي
+     * https://www.gatestoneinstitute.org/12222/nigeria-genocide
+     */
     public function getStubResponse($x){
         $fn = "/var/www/html/wp-content/plugins/gatestone/tests/unit/stub-$x.html";
         $contents = file_get_contents($fn);
@@ -87,5 +131,6 @@ class ContentStubs{
         $contents = file_get_contents($fn);
         return $contents;
     }
+
 
 }

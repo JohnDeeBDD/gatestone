@@ -18,7 +18,9 @@ class SinglePostProcessor{
         $Url = $CurlFetcher->getGateStoneUrlFromCurrentSite();
         $response = $CurlFetcher->fetchRemoteCurl("$Url/$slug");
         $authorID = $this->processForAuthor($response);
+        $dateTime = $this->parseDateAndTime($response);
 
+        //Can't figure out the author. Assign SKIP
         if($authorID == FALSE){
             $authorID = 91;
         }
@@ -28,14 +30,26 @@ class SinglePostProcessor{
         $my_post = array(
             'ID'           => $post_id,
             'post_content' => $content,
-            'post_author'   => $authorID
+            'post_author'   => $authorID,
+            'post_date'     =>  $dateTime
         );
         wp_update_post( $my_post );
+
+
+        //tags:
+        $this->addTags($post_id, $response);
 
         $response = htmlspecialchars($response);
         update_post_meta( $post_id, "cUrlResponse", $response);
         update_post_meta( $post_id, "authorString", $authorID);
 
+    }
+
+    public function addTags($postID, $response){
+        $topics = $this->parseTopics($response);
+        if(!($topics == FALSE)){
+            wp_set_post_tags( $postID, $topics);
+        }
     }
 
     public function processForAuthor($response){
@@ -113,23 +127,43 @@ class SinglePostProcessor{
      * @param $postCUrlResponse
      * @return array
      */
-    public function parseTopics($postCUrlResponse = null){
-      preg_match('|<span[^>]*><b>Related Topics:<\\/b>(.*)<\\/span>|',$postCUrlResponse,$matches);
-      if (!$matches){
-        return false;
-      }
-      preg_match_all('|<a href="([^"]*)">(.*)<\\/a>|',$matches[1],$rawLinks);
-      if (!$rawLinks){
-        return false;
-      }
-      $data=array();
-      $x=count($rawLinks[0]);
-      for($i=0;$i<$x;$i++){
-        $data[]=array('url'=>$rawLinks[1][$i],'title'=>$rawLinks[2][$i]);
-      }
-      return $data;
+    public function NicosparseTopics($postCUrlResponse = null){
+        preg_match('|<span[^>]*><b>Related Topics:<\\/b>(.*)<\\/span>|',$postCUrlResponse,$matches);
+        if (!$matches){
+            return false;
+        }
+        preg_match_all('|<a href="([^"]*)">(.*)<\\/a>|',$matches[1],$rawLinks);
+        if (!$rawLinks){
+            return false;
+        }
+        $data=array();
+        $x=count($rawLinks[0]);
+        for($i=0;$i<$x;$i++){
+            $data[]=array('url'=>$rawLinks[1][$i],'title'=>$rawLinks[2][$i]);
+        }
+        return $data;
     }
 
+    /**
+     * @param $postCUrlResponse
+     * @return array
+     */
+    public function parseTopics($postCUrlResponse = null){
+        file_put_contents("/var/www/html/wp-content/plugins/gatestone/temp.html", $postCUrlResponse);
+        $tags = get_meta_tags ("/var/www/html/wp-content/plugins/gatestone/temp.html");
+        if(isset($tags['news_keywords'])){
+            $topicsString = $tags['news_keywords'];
+            $topicsArray = str_getcsv($topicsString, ", "); //parse the rows
+            $cleanArray = array();
+            foreach($topicsArray as $topic){
+                $topic = ltrim($topic);
+                array_push($cleanArray, $topic);
+            }
+            return $cleanArray;
+        }else {
+            return FALSE;
+        }
+    }
 
     /**
      * @param $postCUrlResponse
