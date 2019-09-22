@@ -15,20 +15,14 @@ class ShortcodeForm
 
             $lastPostID = $_GET['nextPost'];
             $output = $output . "<script src='/wp-content/plugins/gatestone/src/Gatestone/runner.js'></script>";
-            $output = $output . "<a href = 'http://yeezyideationcenter.org/$lastPostID' target = '_blank' >LAST POST - $lastPostID</a>";
         }
 
         $output = $output . <<<output
 
 <form method = "post">
-Nigeria: https://www.gatestoneinstitute.org/topics/18/nigeria<br />
-AR: https://ar.gatestoneinstitute.org/topics/30/<br />
 <br />
 <a href = "/parser/?reset=TRUE">RESET</a><br />
-
 Parse for Archive Rows: <input type = "text" name = "fetch-url-for-rows" /><br />
-<br />
-Parse for Author Rows: <input type = "text" name = "fetch-url-for-author-rows" /><br />
 <br />
 Single post parse: <input type = "text" name = "fetch-single-remote-post" /><br />
 <br />
@@ -40,16 +34,10 @@ output;
         $response = $this->processForm();
         $output = $output . $response;
         $output = $output . $this->getNextItemLink();
-        //$ID = username_exists( "lawrenceafranklin" );
-        //var_dump($ID);die();
-
-        //die('xx');
-
         return $output;
     }
 
-    public function parserLinksHTML()
-    {
+    public function parserLinksHTML(){
         $output = <<<OUTPUT
 https://.gatestoneinstitute.org/archives/<br />
     <a href = "http://ar.yeezyideationcenter.com/parser/">ar</a><br />
@@ -84,7 +72,9 @@ OUTPUT;
                 $title = get_the_title();
                 $Url = site_url();
                 echo "<h2><a id = 'next-item' href = '$Url/parser/?runner=TRUE&nextPost=$ID'>NEXT ITEM</a></h2>";
-
+                if(isset($_GET['nextPOST'])){
+                    if($_GET[['nextPost']] == $ID){die("PROBLEM WITH $ID");}
+                }
             endwhile;
         }
     }
@@ -101,22 +91,8 @@ OUTPUT;
             $this->parseForRows($response);
         }
 
-        if(isset($_GET['reset'])){
-            $args = array(
-                'post_type' => 'post',
-                'nopaging' => true
-            );
-
-            $post_query = new \WP_Query($args);
-            if($post_query->have_posts() ) {
-                while($post_query->have_posts() ) {
-                    $post_query->the_post();
-                    $ID = get_the_ID();
-                    wp_delete_post( $ID, TRUE );
-                    //echo ($ID . "<br />");
-                }
-            }
-            wp_reset_postdata();
+        if(isset($_GET['reset'])) {
+            $this->resetPosts();
         }
 
         if (isset($_POST['fetch-single-remote-post']) && (!( $_POST['fetch-single-remote-post']== "")) ) {
@@ -133,19 +109,6 @@ OUTPUT;
             $output = $this->parseForRows($response);
             return $output;
         }
-        if (isset($_POST['fetch-url-for-author-rows']) && (!( $_POST['fetch-url-for-author-rows']== "")) ) {
-            //die('rows');
-            $CurlFetcher = new CurlFetcher;
-            $response = $CurlFetcher->fetchRemoteCurl($_POST['fetch-url-for-author-rows']);
-            $output = $this->parseForAuthorRows($response);
-            return $output;
-        }
-
-
-
-    }
-
-    public function parseForAuthorRows($response){
 
     }
 
@@ -196,6 +159,34 @@ OUTPUT;
 
         }
         return $output;
+    }
+
+    public function resetPosts(){
+       // die('abc');
+        $args = array(
+            'post_type' => 'post',
+            //'nopaging' => true,
+            'posts_per_page'         => '500',
+        );
+
+        $post_query = new \WP_Query($args);
+        if($post_query->have_posts() ) {
+            while($post_query->have_posts() ) {
+                $post_query->the_post();
+                $ID = get_the_ID();
+                //wp_delete_post( $ID, TRUE );
+                //echo ($ID . "<br />");
+                $post = array(
+                    'ID' => $ID,
+                    //'comment_status'    =>  'open',
+                    'post_content' => 'NO CONTENT YET',
+                    'post_author' => 1,
+                  );
+                //$post_id = wp_update_post($post);
+               wp_delete_post( $ID, TRUE);
+            }
+        }
+        wp_reset_postdata();
     }
 
 

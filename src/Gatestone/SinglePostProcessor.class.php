@@ -14,25 +14,36 @@ class SinglePostProcessor{
         //die($post_id);
         $slug = $post->post_name;
         $slug = "$post_id/$slug";
-        $CurlFetcher = new CurlFetcher();
-        $Url = $CurlFetcher->getGateStoneUrlFromCurrentSite();
-        $response = $CurlFetcher->fetchRemoteCurl("$Url/$slug");
+
+        if ( metadata_exists( 'post', $post_id, 'cUrlResponse' ) ) {
+            $response = get_post_meta( $post_id, 'cUrlResponse', true );
+            $response = htmlspecialchars_decode($response);
+           // die('processing old response');
+        }else{
+            $CurlFetcher = new CurlFetcher();
+            $Url = $CurlFetcher->getGateStoneUrlFromCurrentSite();
+            $response = $CurlFetcher->fetchRemoteCurl("$Url/$slug");
+        }
         $authorID = $this->processForAuthor($response);
         $dateTime = $this->parseDateAndTime($response);
 
+
+        $content = $this->parseForContent($response);
         //Can't figure out the author. Assign SKIP
         if($authorID == FALSE){
             $authorID = 91;
+            $content = "SKIPPED";
         }
 
-        $content = $this->parseForContent($response);
 
         $my_post = array(
             'ID'           => $post_id,
             'post_content' => $content,
-            'post_author'   => $authorID,
-            'post_date'     =>  $dateTime
+            'post_author'  => $authorID,
+            'post_date'    =>  $dateTime
         );
+
+
         wp_update_post( $my_post );
 
 
