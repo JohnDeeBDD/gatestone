@@ -115,8 +115,7 @@ class SinglePostProcessor{
     public function parseForContent($postCUrlResponse){
         $pos = strpos($postCUrlResponse, '<!-- PLAINTEXT STRIP END -->');
         $topCutOff =substr($postCUrlResponse,$pos);
-        $bottomCutOff = strstr($topCutOff, '<div class="subscribe-title">', true);
-        return $bottomCutOff; // YOU DO NOT NEED THIS LINE. JUST RETURN LINE BEFORE THIS ONE!
+        return strstr($topCutOff, '<div class="subscribe-title">', true); 
 
     }
 
